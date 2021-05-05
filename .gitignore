@@ -1,0 +1,7 @@
+/venv/lib/
+/venv/lib64/
+*.iml
+/.gradle/
+/gradlew
+/gradlew.bat
+/gradle/
