@@ -15,9 +15,7 @@ SPIDER_MODULES = ['bibliRennesScraper.spiders']
 NEWSPIDER_MODULE = 'bibliRennesScraper.spiders'
 
 
-SELENIUM_DRIVER_NAME = 'firefox'
-SELENIUM_DRIVER_EXECUTABLE_PATH = which('geckodriver')
-SELENIUM_DRIVER_ARGUMENTS = ['-headless']
+
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -53,14 +51,26 @@ COOKIES_ENABLED = True
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
     'bibliRennesScraper.middlewares.BiblirennesscraperSpiderMiddleware': 543,
-    'scrapy_headless.SeleniumMiddleware': 800
 }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
 #    'bibliRennesScraper.middlewares.BiblirennesscraperDownloaderMiddleware': 543,
-    'scrapy_headless.SeleniumMiddleware': 800
+}
+
+
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+
+
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+
+PLAYWRIGHT_BROWSER_TYPE = 'chromium'
+PLAYWRIGHT_LAUNCH_OPTIONS = {
+    "headless": True
 }
 
 # Enable or disable extensions
