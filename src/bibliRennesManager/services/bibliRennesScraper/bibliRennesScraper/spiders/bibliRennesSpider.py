@@ -1,4 +1,4 @@
-from scrapy.http import FormRequest
+from scrapy.http import Request
 from scrapy.crawler import CrawlerProcess
 import scrapy
 
@@ -17,7 +17,7 @@ class BibliRennesSpider(scrapy.Spider):
     account_url = "https://opac.si.leschampslibres.fr/iii/encore/myaccount?lang=frf"
 
     def start_requests(self):
-        yield FormRequest(self.login_url,
+        yield Request(self.login_url,
                           formdata={"code": "23500002705434",
                                     "pin": "9ewxxjIUAfLcYGIKY1CT"},
                           callback=self.parse_login_response)
