@@ -9,3 +9,14 @@ python {
     pip 'tinydb:4.4.0'
     pip 'scrapy-playwright:0.0.3'
 }
+
+def sitePackageDir = "$projectDir/.gradle/python/lib/python3.8/site-packages"
+def playwrightBin = "$sitePackageDir/playwright/driver/playwright.sh"
+
+task installPlaywright(type: Exec, dependsOn: pipInstall){
+    commandLine playwrightBin, 'install', 'chromium'
+}
+
+task setupEnv(dependsOn: [checkPython, pipInstall, installPlaywright]){
+    println("dev env setup successfully")
+}
