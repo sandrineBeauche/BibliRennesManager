@@ -11,7 +11,7 @@ def launch():
     chdir(scraper_dir)
     settings = get_project_settings()
     process = CrawlerProcess(settings)
-    process.crawl("bibliRennes")
+    process.crawl("bibliRennes", "23500002705434", "9ewxxjIUAfLcYGIKY1CT")
     chdir(pwd)
     process.start()
 

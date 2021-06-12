@@ -1,4 +1,5 @@
 from scrapy.http import Request
+from bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
 from scrapy.crawler import CrawlerProcess
 import scrapy
 
@@ -12,23 +13,34 @@ import scrapy
 class BibliRennesSpider(scrapy.Spider):
     name = "bibliRennes"
 
-    login_url = "https://sbib.si.leschampslibres.fr/iii/cas/login?service=https%3A%2F%2Fopac.si.leschampslibres.fr%3A443%2Fiii%2Fencore%2Fj_acegi_cas_security_check&lang=frf&suite=pearl"
+    login_url = "https://sbib.si.leschampslibres.fr/iii/cas/login"
 
     account_url = "https://opac.si.leschampslibres.fr/iii/encore/myaccount?lang=frf"
 
+    cardId = None
+    cardPassword = None
+
+
+    def __init__(self, cardId=None, cardPassword=None, *args, **kwargs):
+        super(BibliRennesSpider, self).__init__(*args, **kwargs)
+        self.cardId = cardId
+        self.cardPassword = cardPassword
+
     def start_requests(self):
-        yield Request(self.login_url,
-                          formdata={"code": "23500002705434",
-                                    "pin": "9ewxxjIUAfLcYGIKY1CT"},
-                          callback=self.parse_login_response)
+        req = SessionRequest(url=self.login_url, 
+                        callback=self.parse_login_response,
+                        sessionId=self.cardId)
+        yield req
 
 
     def parse_login_response(self, response):
-        if response.status == 200:
-            yield scrapy.Request(self.account_url, callback=self.parse_account, dont_filter=True)
-        else:
-            raise NameError("Server connection exeption")
-
+        page = response.meta["playwright_page"]
+        page.fill("input#code", self.cardId)
+        page.fill("input#pin", self.cardPassword)
+        page.click('//input[@name="submit"]')
+        
+        yield scrapy.Request(self.account_url, callback=self.parse_account, dont_filter=True,)
+        
     def parse_account(self, response):
         if response.status != 200:
             raise NameError("Server connection exeption")

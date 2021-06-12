@@ -7,6 +7,7 @@ from scrapy import signals
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
+from bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
 
 
 class BiblirennesscraperSpiderMiddleware:
@@ -61,14 +62,19 @@ class BiblirennesscraperDownloaderMiddleware:
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
 
+    crawlerObject = None
+
+    contexts = {}
+
     @classmethod
     def from_crawler(cls, crawler):
         # This method is used by Scrapy to create your spiders.
         s = cls()
+        s.crawlerObject = crawler
         crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
         return s
 
-    def process_request(self, request, spider):
+    async def process_request(self, request, spider):
         # Called for each request that goes through the downloader
         # middleware.
 
@@ -78,7 +84,14 @@ class BiblirennesscraperDownloaderMiddleware:
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
-        return None
+        if not isinstance(request, SessionRequest):
+            return None
+
+        sessionId = request.sessionId
+        page = await self.create_page(sessionId)
+        request.meta["playwright_page"] = page
+        return request
+
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.
@@ -101,3 +114,15 @@ class BiblirennesscraperDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+    async def create_page(self, sessionId):
+        if(sessionId in self.contexts):
+            current_context = self.contexts[sessionId]
+        else:
+            handlers = self.crawlerObject.engine.downloader.handlers
+            pwHandler = handlers._handlers["http"]
+            browser = pwHandler.browser
+            current_context = await browser.new_context(**pwHandler.context_args)
+            self.contexts[sessionId] = current_context
+        page = await current_context.new_page() 
+        return page
