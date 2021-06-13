@@ -8,15 +8,41 @@ python {
     pip 'PyQt5:5.15.4'
     pip 'tinydb:4.4.0'
     pip 'scrapy-playwright:0.0.3'
+    pip 'pyclean:2.0.0'
 }
 
 def sitePackageDir = "$projectDir/.gradle/python/lib/python3.8/site-packages"
 def playwrightBin = "$sitePackageDir/playwright/driver/playwright.sh"
 
-task installPlaywright(type: Exec, dependsOn: pipInstall){
-    commandLine playwrightBin, 'install', 'chromium'
+task installPlaywright(dependsOn: pipInstall) {
+    doLast{
+        exec{
+            commandLine playwrightBin, 'install', 'chromium'
+        }
+    }
 }
 
-task setupEnv(dependsOn: [checkPython, pipInstall, installPlaywright]){
-    println("dev env setup successfully")
+task setupEnv(dependsOn: [checkPython, pipInstall, installPlaywright]) {
+    doLast{
+        println("dev env setup successfully")
+    }
+}
+
+task cleanCache {
+    doLast{
+        exec{
+            commandLine 'pyclean', './'
+        }
+    }
+}
+
+task cleanPython {
+    doLast{
+        delete{
+            delete './.gradle/python'
+        }
+    }
+}
+
+task cleanAll(dependsOn: [cleanCache, cleanPython]){
 }
