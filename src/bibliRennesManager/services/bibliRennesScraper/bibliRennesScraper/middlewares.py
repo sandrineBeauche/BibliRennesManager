@@ -7,7 +7,7 @@ from scrapy import signals
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
-from bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
+from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
 
 
 class BiblirennesscraperSpiderMiddleware:
@@ -84,13 +84,12 @@ class BiblirennesscraperDownloaderMiddleware:
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
-        if not isinstance(request, SessionRequest):
-            return None
+        if isinstance(request, SessionRequest):
+            sessionId = request.sessionId
+            page = await self.create_page(sessionId)
+            request.meta["playwright_page"] = page
 
-        sessionId = request.sessionId
-        page = await self.create_page(sessionId)
-        request.meta["playwright_page"] = page
-        return request
+        return None
 
 
     def process_response(self, request, response, spider):
