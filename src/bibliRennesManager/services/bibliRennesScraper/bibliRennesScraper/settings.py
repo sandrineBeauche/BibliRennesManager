@@ -57,6 +57,7 @@ SPIDER_MIDDLEWARES = {
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'bibliRennesScraper.middlewares.SessionPlaywrightDownloaderMiddleware': 543,
+    'bibliRennesScraper.middlewares.PlaywrightFrameDownloaderMiddleware': 550,
 }
 
 
@@ -70,7 +71,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
 PLAYWRIGHT_BROWSER_TYPE = 'chromium'
 PLAYWRIGHT_LAUNCH_OPTIONS = {
-    "headless": True
+    "headless": False
 }
 
 # Enable or disable extensions

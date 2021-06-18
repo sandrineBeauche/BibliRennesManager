@@ -4,6 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from scrapy.responsetypes import responsetypes
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
@@ -125,3 +126,71 @@ class SessionPlaywrightDownloaderMiddleware:
             self.contexts[sessionId] = current_context
         page = await current_context.new_page() 
         return page
+
+
+class PlaywrightFrameDownloaderMiddleware:
+    # Not all methods need to be defined. If a method is not defined,
+    # scrapy acts as if the downloader middleware does not modify the
+    # passed objects.
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        # This method is used by Scrapy to create your spiders.
+        s = cls()
+        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
+        return s
+
+    def process_request(self, request, spider):
+        # Called for each request that goes through the downloader
+        # middleware.
+
+        # Must either:
+        # - return None: continue processing this request
+        # - or return a Response object
+        # - or return a Request object
+        # - or raise IgnoreRequest: process_exception() methods of
+        #   installed downloader middleware will be called
+        return None
+
+
+    async def process_response(self, request, response, spider):
+        # Called with the response returned from the downloader.
+
+        # Must either;
+        # - return a Response object
+        # - return a Request object
+        # - or raise IgnoreRequest
+        if "playwright_page" not in response.meta:
+            return response
+        page = response.meta["playwright_page"]
+        if len(page.frames) < 2:
+            return response
+
+        response.frames = {}
+        for current_frame in page.frames:
+            body = (await current_frame.content()).encode("utf8")
+            resp_cls = responsetypes.from_args(headers=response.headers, url=current_frame.url, body=body)
+            sub_response = resp_cls(url=current_frame.url,
+                                    status=response.status,
+                                    headers=response.headers,
+                                    body=body,
+                                    request=request
+                                    )
+            response.frames[current_frame.name] = sub_response
+
+        return response
+
+
+
+    def process_exception(self, request, exception, spider):
+        # Called when a download handler or a process_request()
+        # (from other downloader middleware) raises an exception.
+
+        # Must either:
+        # - return None: continue processing this exception
+        # - return a Response object: stops process_exception() chain
+        # - return a Request object: stops process_exception() chain
+        pass
+
+    def spider_opened(self, spider):
+        spider.logger.info('Spider opened: %s' % spider.name)
