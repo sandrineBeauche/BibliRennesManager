@@ -19,10 +19,12 @@ class BookItem:
     authors: Optional[str] = field(default=None)
     cote: Optional[str] = field(default=None)
     status: Optional[str] = field(default=None)
+    library: Optional[str] = field(default=None)
+
 
 
 class BookLoader(ItemLoader):
     default_input_processor = MapCompose(str.strip)
     default_output_processor = TakeFirst()
 
-    title_in = Compose(lambda v: v.strip(' '))
+    title_in = MapCompose(lambda v: v.strip(" \n"), lambda v: v.split(" Texte")[0])
