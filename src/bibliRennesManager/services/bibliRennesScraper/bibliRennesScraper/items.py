@@ -2,6 +2,7 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
+from datetime import datetime
 
 import scrapy
 from dataclasses import dataclass, field
@@ -18,8 +19,9 @@ class BookItem:
     title: Optional[str] = field(default=None)
     authors: Optional[str] = field(default=None)
     cote: Optional[str] = field(default=None)
-    status: Optional[str] = field(default=None)
     library: Optional[str] = field(default=None)
+    deadline: Optional[datetime] = field(default=None)
+    reservation: Optional[bool] = field(default=False)
 
 
 
