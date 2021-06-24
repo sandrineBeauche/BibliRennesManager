@@ -25,8 +25,24 @@ class BookItem:
 
 
 
+
+def extract_title(title: str):
+    if "[" in title:
+        return title.split("[")[0]
+    elif "/" in title:
+        return title.split("/")[0]
+    elif "!" in title:
+        return title[:title.index("!") + 1]
+    elif "?" in title:
+        return title[:title.index("?") + 1]
+    else:
+        return title
+
+
+
+
 class BookLoader(ItemLoader):
     default_input_processor = MapCompose(str.strip)
     default_output_processor = TakeFirst()
 
-    title_in = MapCompose(lambda v: v.strip(" \n"), lambda v: v.split(" Texte")[0])
+    title_in = MapCompose(extract_title, str.strip)
