@@ -1,5 +1,13 @@
 from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.items import BookItem, BookLoader
 
+def perform_property(loader_cls, propertyName, values):
+    for current in values:
+        loader = loader_cls()
+        loader.add_value("title", current["value"])
+        item = loader.load_item()
+        assert item.title == current["expected"]
+
+
 def test_book_loader_title():
     titles = [
         {
@@ -20,10 +28,4 @@ def test_book_loader_title():
                         ""
         }
     ]
-
-    for current_title in titles:
-        loader = BookLoader(item=BookItem())
-
-        loader.add_value("title", current_title["value"])
-        item = loader.load_item()
-        assert item.title == current_title["expected"]
+    perform_property(lambda: BookLoader(item=BookItem()), "title", titles)

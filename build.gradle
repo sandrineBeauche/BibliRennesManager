@@ -10,6 +10,7 @@ python {
     pip 'scrapy-playwright:0.0.3'
     pip 'pyclean:2.0.0'
     pip 'pytest:6.2.4'
+    pip 'PyHamcrest:2.0.2'
 }
 
 def sitePackageDir = "$projectDir/.gradle/python/lib/python3.9/site-packages"
