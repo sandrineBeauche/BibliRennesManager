@@ -11,7 +11,6 @@ from itemloaders.processors import TakeFirst, MapCompose, Join, Compose
 from scrapy.loader import ItemLoader
 
 
-
 @dataclass
 class BookItem:
     # define the fields for your item here like:
@@ -22,8 +21,7 @@ class BookItem:
     library: Optional[str] = field(default=None)
     deadline: Optional[datetime] = field(default=None)
     reservation: Optional[bool] = field(default=False)
-
-
+    renewed: Optional[bool] = field(default=False)
 
 
 def extract_title(title: str):
@@ -37,8 +35,6 @@ def extract_title(title: str):
         return title[:title.index("?") + 1]
     else:
         return title
-
-
 
 
 class BookLoader(ItemLoader):
