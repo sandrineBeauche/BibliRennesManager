@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- VERSION = $Id$ $Rev: 213672 $ $Date: 2013-06-20 17:09:56 -0700 (Thu, 20 Jun 2013) $ -->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles_iii.css" />
+<script type="text/javascript" src="/scripts/elcontent.js">
+</script>
+<script type="text/javascript" src="/scripts/common.js">
+</script>
+<script type="text/javascript" src="/scripts/features.js">
+</script>
+<script type="text/javascript" src="/scripts/webbridge.js">
+</script>
+
+</head>
+<body>
+   <div class="patFuncArea">
+<form name="checkout_form" method="POST" id="checkout_form" onsubmit="return (typeof submitted == 'undefined') ? (submitted = true) : !submitted" ><input type="HIDDEN" id="checkoutpagecmd" />
+
+<a href="#"  onClick="return submitCheckout( 'sortByCheckoutDate', 'bycheckoutdate' )"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Trier par date d'emprunt</span></span></div></div></a>
+<input type="HIDDEN" name="currentsortorder" value="current_duedate" />
+<a href="#"  onClick="return submitCheckout( 'requestRenewAll', 'requestRenewAll' )"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renouveler tout</span></span></div></div></a>
+<a href="#"  onClick="return submitCheckout( 'requestRenewSome', 'requestRenewSome' )"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renouveler la s&#233lection</span></span></div></div></a>
+</nobr>
+<div  class="patFuncTitle">
+<span id="id_pftitle_items_count">32 EXEMPLAIRES PRÊTÉS
+</span>
+</div>
+
+<table border width="100%" class="patFunc">
+<tr class="patFuncHeaders">
+<th scope="col"  class="patFuncHeaders"> RENOUVELER </th><th scope="col"  class="patFuncHeaders"> TITRE </th><th scope="col"  class="patFuncHeaders"> Classements </th><th scope="col"  class="patFuncHeaders"> CODE-BARRES </th><th scope="col"  class="patFuncHeaders"> STATUT </th><th scope="col"  class="patFuncHeaders"> COTE </th>
+<style type="text/css">
+<!--
+#ratemy1    { display: inline }
+#rateneed1  { display: none }
+#ratemy2    { display: inline }
+#rateneed2  { display: none }
+#ratemy3    { display: inline }
+#rateneed3  { display: none }
+#ratemy4    { display: inline }
+#rateneed4  { display: none }
+#ratemy5    { display: inline }
+#rateneed5  { display: none }
+#ratemy6    { display: inline }
+#rateneed6  { display: none }
+#ratemy7    { display: inline }
+#rateneed7  { display: none }
+#ratemy8    { display: inline }
+#rateneed8  { display: none }
+#ratemy9    { display: inline }
+#rateneed9  { display: none }
+#ratemy10    { display: inline }
+#rateneed10  { display: none }
+#ratemy11    { display: inline }
+#rateneed11  { display: none }
+#ratemy12    { display: inline }
+#rateneed12  { display: none }
+#ratemy13    { display: inline }
+#rateneed13  { display: none }
+#ratemy14    { display: inline }
+#rateneed14  { display: none }
+#ratemy15    { display: inline }
+#rateneed15  { display: none }
+#ratemy16    { display: inline }
+#rateneed16  { display: none }
+#ratemy17    { display: inline }
+#rateneed17  { display: none }
+#ratemy18    { display: inline }
+#rateneed18  { display: none }
+#ratemy19    { display: inline }
+#rateneed19  { display: none }
+#ratemy20    { display: inline }
+#rateneed20  { display: none }
+#ratemy21    { display: inline }
+#rateneed21  { display: none }
+#ratemy22    { display: inline }
+#rateneed22  { display: none }
+#ratemy23    { display: inline }
+#rateneed23  { display: none }
+#ratemy24    { display: inline }
+#rateneed24  { display: none }
+#ratemy25    { display: inline }
+#rateneed25  { display: none }
+#ratemy26    { display: inline }
+#rateneed26  { display: none }
+#ratemy27    { display: inline }
+#rateneed27  { display: none }
+#ratemy28    { display: inline }
+#rateneed28  { display: none }
+#ratemy29    { display: inline }
+#rateneed29  { display: none }
+#ratemy30    { display: inline }
+#rateneed30  { display: none }
+#ratemy31    { display: inline }
+#rateneed31  { display: none }
+#ratemy32    { display: inline }
+#rateneed32  { display: none }
+-->
+</style>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3473804x00" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3473804x00" aria-labelledby="id_pfmark_canceli3473804x00 id_pfbibtitle_titlei3473804x00" value="i3473804"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3473804x00" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060092?lang=frf&suite=def"><span class="patFuncTitleMain">Toboggan</span></a>
+<br /><span class="patFuncVol">no.486 mai 2021</span>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy1"  onmouseover="setToolVisibility  ('ratemy1', 'none', 'rateneed1', 'inline')">_____
+</span>
+<span id="rateneed1"  onmouseout="setToolVisibility  ('ratemy1', 'inline', 'rateneed1', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1060092">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1060092">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1060092">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1060092">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1060092">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600918569 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> P 840  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3406998x01" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3406998x01" aria-labelledby="id_pfmark_canceli3406998x01 id_pfbibtitle_titlei3406998x01" value="i3406998"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3406998x01" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1843465?lang=frf&suite=def"><span class="patFuncTitleMain">L'héritage de Rantanplan  [Texte imprimé] / dessins de Morris &#59; scénario de Goscinny</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy2"  onmouseover="setToolVisibility  ('ratemy2', 'none', 'rateneed2', 'inline')">_____
+</span>
+<span id="rateneed2"  onmouseout="setToolVisibility  ('ratemy2', 'inline', 'rateneed2', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1843465">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1843465">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1843465">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1843465">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1843465">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600861371 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD L  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3316562x02" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3316562x02" aria-labelledby="id_pfmark_canceli3316562x02 id_pfbibtitle_titlei3316562x02" value="i3316562"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3316562x02" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1170297?lang=frf&suite=def"><span class="patFuncTitleMain">Merci qui? Tome, Janry</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy3"  onmouseover="setToolVisibility  ('ratemy3', 'none', 'rateneed3', 'inline')">_____
+</span>
+<span id="rateneed3"  onmouseout="setToolVisibility  ('ratemy3', 'inline', 'rateneed3', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1170297">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1170297">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1170297">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1170297">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1170297">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600801179 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD P  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3311983x03" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3311983x03" aria-labelledby="id_pfmark_canceli3311983x03 id_pfbibtitle_titlei3311983x03" value="i3311983"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3311983x03" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2001518?lang=frf&suite=def"><span class="patFuncTitleMain">L'imagerie français-anglais  [Texte imprimé] / conception et texte, émilie Beaumont &#59; images, Mélopée, C. Ferrier, S. Ledesma... [et al.]</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy4"  onmouseover="setToolVisibility  ('ratemy4', 'none', 'rateneed4', 'inline')">_____
+</span>
+<span id="rateneed4"  onmouseout="setToolVisibility  ('ratemy4', 'inline', 'rateneed4', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2001518">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2001518">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2001518">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2001518">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2001518">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600797062 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> 6 ANGLAIS  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli1978055x04" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli1978055x04" aria-labelledby="id_pfmark_canceli1978055x04 id_pfbibtitle_titlei1978055x04" value="i1978055"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei1978055x04" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1436283?lang=frf&suite=def"><span class="patFuncTitleMain">L'ours abandonné / Catherine de Lasa &#59; ill. par Régis Faller</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy5"  onmouseover="setToolVisibility  ('ratemy5', 'none', 'rateneed5', 'inline')">_____
+</span>
+<span id="rateneed5"  onmouseout="setToolVisibility  ('ratemy5', 'inline', 'rateneed5', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1436283">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1436283">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1436283">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1436283">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1436283">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600001622 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> RE LAS  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2959943x05" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2959943x05" aria-labelledby="id_pfmark_canceli2959943x05 id_pfbibtitle_titlei2959943x05" value="i2959943"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2959943x05" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1870085?lang=frf&suite=def"><span class="patFuncTitleMain">Je n'ai pas fait mes devoirs parce que  [Texte imprimé] / Davide Cali &#59; [illustré par] Benjamin Chaud &#59; [traduit de l'anglais par Sophie Giraud]</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy6"  onmouseover="setToolVisibility  ('ratemy6', 'none', 'rateneed6', 'inline')">_____
+</span>
+<span id="rateneed6"  onmouseout="setToolVisibility  ('ratemy6', 'inline', 'rateneed6', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1870085">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1870085">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1870085">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1870085">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1870085">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600600423 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 
+</td>
+<td  class="patFuncCallNo"> A C  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3469318x06" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3469318x06" aria-labelledby="id_pfmark_canceli3469318x06 id_pfbibtitle_titlei3469318x06" value="i3469318"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3469318x06" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2074718?lang=frf&suite=def"><span class="patFuncTitleMain">Détective Popotin mène l'enquête...  [Texte imprimé] / écrit et illustré par Troll &#59; traduit du japonais par Sylvain Chollet</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy7"  onmouseover="setToolVisibility  ('ratemy7', 'none', 'rateneed7', 'inline')">_____
+</span>
+<span id="rateneed7"  onmouseout="setToolVisibility  ('ratemy7', 'inline', 'rateneed7', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2074718">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2074718">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2074718">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2074718">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2074718">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600913826 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 +1 RÉSERVATION 
+</td>
+<td  class="patFuncCallNo"> AJ T  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3467280x07" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3467280x07" aria-labelledby="id_pfmark_canceli3467280x07 id_pfbibtitle_titlei3467280x07" value="i3467280"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3467280x07" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2077142?lang=frf&suite=def"><span class="patFuncTitleMain">Trois fantômes pour un anniversaire  [Texte imprimé] / Juliette Vallery &#59; illustrations Maurèen Poignonec</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy8"  onmouseover="setToolVisibility  ('ratemy8', 'none', 'rateneed8', 'inline')">_____
+</span>
+<span id="rateneed8"  onmouseout="setToolVisibility  ('ratemy8', 'inline', 'rateneed8', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2077142">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2077142">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2077142">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2077142">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2077142">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600912059 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 
+</td>
+<td  class="patFuncCallNo"> RE VAL  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2595202x08" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2595202x08" aria-labelledby="id_pfmark_canceli2595202x08 id_pfbibtitle_titlei2595202x08" value="i2595202"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2595202x08" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1018289?lang=frf&suite=def"><span class="patFuncTitleMain">Le Parrain / Xavier Fauche, J. Leturgie &#59; dessins de Morris et michel Janvier</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy9"  onmouseover="setToolVisibility  ('ratemy9', 'none', 'rateneed9', 'inline')">_____
+</span>
+<span id="rateneed9"  onmouseout="setToolVisibility  ('ratemy9', 'inline', 'rateneed9', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1018289">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1018289">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1018289">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1018289">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1018289">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600464655 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 
+</td>
+<td  class="patFuncCallNo"> BD R  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3423620x09" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3423620x09" aria-labelledby="id_pfmark_canceli3423620x09 id_pfbibtitle_titlei3423620x09" value="i3423620"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3423620x09" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1303710?lang=frf&suite=def"><span class="patFuncTitleMain">Ramdam sur le rift  [Texte imprimé] / Herlé, Widenlocher</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy10"  onmouseover="setToolVisibility  ('ratemy10', 'none', 'rateneed10', 'inline')">_____
+</span>
+<span id="rateneed10"  onmouseout="setToolVisibility  ('ratemy10', 'inline', 'rateneed10', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1303710">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1303710">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1303710">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1303710">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1303710">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600873863 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 
+</td>
+<td  class="patFuncCallNo"> BD N  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli1085332x10" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli1085332x10" aria-labelledby="id_pfmark_canceli1085332x10 id_pfbibtitle_titlei1085332x10" value="i1085332"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei1085332x10" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1016553?lang=frf&suite=def"><span class="patFuncTitleMain">Natacha et le maharadjah / par F. Walthéry &#59; et Gos pour le scénario et les textes ...</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy11"  onmouseover="setToolVisibility  ('ratemy11', 'none', 'rateneed11', 'inline')">_____
+</span>
+<span id="rateneed11"  onmouseout="setToolVisibility  ('ratemy11', 'inline', 'rateneed11', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1016553">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1016553">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1016553">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1016553">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1016553">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600056345 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 
+</td>
+<td  class="patFuncCallNo"> BD N  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3158088x11" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3158088x11" aria-labelledby="id_pfmark_canceli3158088x11 id_pfbibtitle_titlei3158088x11" value="i3158088"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3158088x11" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1949726?lang=frf&suite=def"><span class="patFuncTitleMain">Le génie de la bouteille de lait  [Texte imprimé] / écrit par Emmanuel Trédez &#59; illustré par Yves Calarnou</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy12"  onmouseover="setToolVisibility  ('ratemy12', 'none', 'rateneed12', 'inline')">_____
+</span>
+<span id="rateneed12"  onmouseout="setToolVisibility  ('ratemy12', 'inline', 'rateneed12', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1949726">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1949726">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1949726">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1949726">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1949726">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600697833 </td>
+<td  class="patFuncStatus"> RETOUR 06-07-21 
+</td>
+<td  class="patFuncCallNo"> RE TRE  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3234063x12" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3234063x12" aria-labelledby="id_pfmark_canceli3234063x12 id_pfbibtitle_titlei3234063x12" value="i3234063"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3234063x12" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1007996?lang=frf&suite=def"><span class="patFuncTitleMain">Le Bébé Schtroumpf  &#59;  Le Schtroumpf bricoleur &#59;  La peinture Schtroumpf &#59;  Une fête schtroumpfante  [Texte imprimé] / Peyo</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy13"  onmouseover="setToolVisibility  ('ratemy13', 'none', 'rateneed13', 'inline')">_____
+</span>
+<span id="rateneed13"  onmouseout="setToolVisibility  ('ratemy13', 'inline', 'rateneed13', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1007996">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1007996">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1007996">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1007996">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1007996">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600747992 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD S  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3162970x13" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3162970x13" aria-labelledby="id_pfmark_canceli3162970x13 id_pfbibtitle_titlei3162970x13" value="i3162970"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3162970x13" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1017243?lang=frf&suite=def"><span class="patFuncTitleMain">Le Crabe aux pinces d'or / Hergé</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy14"  onmouseover="setToolVisibility  ('ratemy14', 'none', 'rateneed14', 'inline')">_____
+</span>
+<span id="rateneed14"  onmouseout="setToolVisibility  ('ratemy14', 'inline', 'rateneed14', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1017243">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1017243">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1017243">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1017243">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1017243">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600699995 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD T  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli1082140x14" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli1082140x14" aria-labelledby="id_pfmark_canceli1082140x14 id_pfbibtitle_titlei1082140x14" value="i1082140"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei1082140x14" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1016023?lang=frf&suite=def"><span class="patFuncTitleMain">Le Gri-Gri du Niokolo-Koba  [Texte imprimé] / par Fournier</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy15"  onmouseover="setToolVisibility  ('ratemy15', 'none', 'rateneed15', 'inline')">_____
+</span>
+<span id="rateneed15"  onmouseout="setToolVisibility  ('ratemy15', 'inline', 'rateneed15', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1016023">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1016023">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1016023">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1016023">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1016023">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600097331 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD S  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2029584x15" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2029584x15" aria-labelledby="id_pfmark_canceli2029584x15 id_pfbibtitle_titlei2029584x15" value="i2029584"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2029584x15" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1453580?lang=frf&suite=def"><span class="patFuncTitleMain">Les jambières magiques / Scénario de David Chauvel, dessin et couleur de Fred Simon</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy16"  onmouseover="setToolVisibility  ('ratemy16', 'none', 'rateneed16', 'inline')">_____
+</span>
+<span id="rateneed16"  onmouseout="setToolVisibility  ('ratemy16', 'inline', 'rateneed16', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1453580">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1453580">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1453580">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1453580">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1453580">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600071096 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD P  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3423681x16" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3423681x16" aria-labelledby="id_pfmark_canceli3423681x16 id_pfbibtitle_titlei3423681x16" value="i3423681"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3423681x16" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1316823?lang=frf&suite=def"><span class="patFuncTitleMain">Le prophète / Scénario de Patrick Nordmann &#59; ill. de Morris</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy17"  onmouseover="setToolVisibility  ('ratemy17', 'none', 'rateneed17', 'inline')">_____
+</span>
+<span id="rateneed17"  onmouseout="setToolVisibility  ('ratemy17', 'inline', 'rateneed17', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1316823">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1316823">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1316823">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1316823">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1316823">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600874606 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD L  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3232321x17" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3232321x17" aria-labelledby="id_pfmark_canceli3232321x17 id_pfbibtitle_titlei3232321x17" value="i3232321"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3232321x17" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1703514?lang=frf&suite=def"><span class="patFuncTitleMain">Sieste sur ordonnance  [Texte imprimé] / Roba</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy18"  onmouseover="setToolVisibility  ('ratemy18', 'none', 'rateneed18', 'inline')">_____
+</span>
+<span id="rateneed18"  onmouseout="setToolVisibility  ('ratemy18', 'inline', 'rateneed18', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1703514">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1703514">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1703514">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1703514">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1703514">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600746127 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD B  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3304880x18" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3304880x18" aria-labelledby="id_pfmark_canceli3304880x18 id_pfbibtitle_titlei3304880x18" value="i3304880"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3304880x18" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1839143?lang=frf&suite=def"><span class="patFuncTitleMain">Slime project  [Texte imprimé] / scénario et dessin Midam &#59; couleurs Angèle</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy19"  onmouseover="setToolVisibility  ('ratemy19', 'none', 'rateneed19', 'inline')">_____
+</span>
+<span id="rateneed19"  onmouseout="setToolVisibility  ('ratemy19', 'inline', 'rateneed19', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1839143">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1839143">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1839143">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1839143">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1839143">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600793061 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD K  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3359234x19" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3359234x19" aria-labelledby="id_pfmark_canceli3359234x19 id_pfbibtitle_titlei3359234x19" value="i3359234"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3359234x19" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2021658?lang=frf&suite=def"><span class="patFuncTitleMain">Bienvenido a Bingo !  [Texte imprimé] / dessins, Batem &#59; scénario, Colman &#59; couleurs, Cerise &#59; d'après un personnage créé par Franquin</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy20"  onmouseover="setToolVisibility  ('ratemy20', 'none', 'rateneed20', 'inline')">_____
+</span>
+<span id="rateneed20"  onmouseout="setToolVisibility  ('ratemy20', 'inline', 'rateneed20', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2021658">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2021658">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2021658">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2021658">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2021658">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500600829238 </td>
+<td  class="patFuncStatus"> RETOUR 13-07-21 
+</td>
+<td  class="patFuncCallNo"> BD M  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2428798x20" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2428798x20" aria-labelledby="id_pfmark_canceli2428798x20 id_pfbibtitle_titlei2428798x20" value="i2428798"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2428798x20" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1656258?lang=frf&suite=def"><span class="patFuncTitleMain">L'imagerie français-arabe / conception et texte Emilie Beaumont</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy21"  onmouseover="setToolVisibility  ('ratemy21', 'none', 'rateneed21', 'inline')">_____
+</span>
+<span id="rateneed21"  onmouseout="setToolVisibility  ('ratemy21', 'inline', 'rateneed21', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1656258">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1656258">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1656258">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1656258">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1656258">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500013548334 </td>
+<td  class="patFuncStatus"> RETOUR 22-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> 413 BEA  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3299228x21" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3299228x21" aria-labelledby="id_pfmark_canceli3299228x21 id_pfbibtitle_titlei3299228x21" value="i3299228"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3299228x21" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1997610?lang=frf&suite=def"><span class="patFuncTitleMain">Apprendre l'anglais en chantant  [Texte imprimé] / orchestrations Lucas Sanner, Renan Napoli &#59; interprètes Sarah Tullamore et Yann Marshall &#59; illustrations et conception graphique Adeline Ruel</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy22"  onmouseover="setToolVisibility  ('ratemy22', 'none', 'rateneed22', 'inline')">_____
+</span>
+<span id="rateneed22"  onmouseout="setToolVisibility  ('ratemy22', 'inline', 'rateneed22', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1997610">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1997610">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1997610">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1997610">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1997610">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510900114454 </td>
+<td  class="patFuncStatus"> RETOUR 22-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> 420 APP  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3254510x22" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3254510x22" aria-labelledby="id_pfmark_canceli3254510x22 id_pfbibtitle_titlei3254510x22" value="i3254510"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3254510x22" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1982828?lang=frf&suite=def"><span class="patFuncTitleMain">Splat goes to the aquarium  [Texte imprimé] / d'après le personnage de Rob Scotton &#59; dossier d'accompagnement de Christophe Loupy &#59; texte Annie Auerbach &#59; illustrations Rick Farley</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy23"  onmouseover="setToolVisibility  ('ratemy23', 'none', 'rateneed23', 'inline')">_____
+</span>
+<span id="rateneed23"  onmouseout="setToolVisibility  ('ratemy23', 'inline', 'rateneed23', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1982828">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1982828">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1982828">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1982828">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1982828">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510900094359 </td>
+<td  class="patFuncStatus"> RETOUR 22-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> ANG A S  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3172795x23" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3172795x23" aria-labelledby="id_pfmark_canceli3172795x23 id_pfbibtitle_titlei3172795x23" value="i3172795"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3172795x23" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1955011?lang=frf&suite=def"><span class="patFuncTitleMain">L'encyclopédie des animaux  [Texte imprimé] / Derek Harvey</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy24"  onmouseover="setToolVisibility  ('ratemy24', 'none', 'rateneed24', 'inline')">_____
+</span>
+<span id="rateneed24"  onmouseout="setToolVisibility  ('ratemy24', 'inline', 'rateneed24', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1955011">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1955011">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1955011">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1955011">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1955011">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510900057042 </td>
+<td  class="patFuncStatus"> RETOUR 22-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> 590 ENC  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3447781x24" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3447781x24" aria-labelledby="id_pfmark_canceli3447781x24 id_pfbibtitle_titlei3447781x24" value="i3447781"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3447781x24" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2067293?lang=frf&suite=def"><span class="patFuncTitleMain">Noé et le père Noël / Éric Battut,... illustré par Nathalie Desforges</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy25"  onmouseover="setToolVisibility  ('ratemy25', 'none', 'rateneed25', 'inline')">_____
+</span>
+<span id="rateneed25"  onmouseout="setToolVisibility  ('ratemy25', 'inline', 'rateneed25', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2067293">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2067293">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2067293">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2067293">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2067293">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510200189719 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> RE BAT  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3455525x25" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3455525x25" aria-labelledby="id_pfmark_canceli3455525x25 id_pfbibtitle_titlei3455525x25" value="i3455525"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3455525x25" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2065282?lang=frf&suite=def"><span class="patFuncTitleMain">Bienvenue au club ! écrit par Gwenaëlle Boulet &#59; illustré par Vincent Caut</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy26"  onmouseover="setToolVisibility  ('ratemy26', 'none', 'rateneed26', 'inline')">_____
+</span>
+<span id="rateneed26"  onmouseout="setToolVisibility  ('ratemy26', 'inline', 'rateneed26', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2065282">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2065282">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2065282">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2065282">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2065282">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510200193307 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> RE BOU  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3327968x26" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3327968x26" aria-labelledby="id_pfmark_canceli3327968x26 id_pfbibtitle_titlei3327968x26" value="i3327968"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3327968x26" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2005232?lang=frf&suite=def"><span class="patFuncTitleMain">Mon imagier anglais-français  [Texte imprimé] : 500 mots de la vie de tous les jours</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy27"  onmouseover="setToolVisibility  ('ratemy27', 'none', 'rateneed27', 'inline')">_____
+</span>
+<span id="rateneed27"  onmouseout="setToolVisibility  ('ratemy27', 'inline', 'rateneed27', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b2005232">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b2005232">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b2005232">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b2005232">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b2005232">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510200133725 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> ANG A I  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli1951321x27" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli1951321x27" aria-labelledby="id_pfmark_canceli1951321x27 id_pfbibtitle_titlei1951321x27" value="i1951321"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei1951321x27" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1421551?lang=frf&suite=def"><span class="patFuncTitleMain">Les choix de Charlotte / Geerts</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy28"  onmouseover="setToolVisibility  ('ratemy28', 'none', 'rateneed28', 'inline')">_____
+</span>
+<span id="rateneed28"  onmouseout="setToolVisibility  ('ratemy28', 'inline', 'rateneed28', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1421551">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1421551">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1421551">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1421551">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1421551">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500011265055 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD L  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli3308629x28" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli3308629x28" aria-labelledby="id_pfmark_canceli3308629x28 id_pfbibtitle_titlei3308629x28" value="i3308629"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei3308629x28" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1393577?lang=frf&suite=def"><span class="patFuncTitleMain">Le Wendigo / scénario de David Chauvel, dessin de Fred Simon</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy29"  onmouseover="setToolVisibility  ('ratemy29', 'none', 'rateneed29', 'inline')">_____
+</span>
+<span id="rateneed29"  onmouseout="setToolVisibility  ('ratemy29', 'inline', 'rateneed29', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1393577">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1393577">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1393577">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1393577">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1393577">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33510200123429 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD P  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2671063x29" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2671063x29" aria-labelledby="id_pfmark_canceli2671063x29 id_pfbibtitle_titlei2671063x29" value="i2671063"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2671063x29" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1447864?lang=frf&suite=def"><span class="patFuncTitleMain">ça chauffe à Texico! scénario Jean-Louis Fonteneau, dessin Olivier Schwartz, couleur Christine Couturier</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy30"  onmouseover="setToolVisibility  ('ratemy30', 'none', 'rateneed30', 'inline')">_____
+</span>
+<span id="rateneed30"  onmouseout="setToolVisibility  ('ratemy30', 'inline', 'rateneed30', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1447864">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1447864">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1447864">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1447864">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1447864">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500014726806 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD I  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2672860x30" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2672860x30" aria-labelledby="id_pfmark_canceli2672860x30 id_pfbibtitle_titlei2672860x30" value="i2672860"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2672860x30" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060778?lang=frf&suite=def"><span class="patFuncTitleMain">Faut rigoler / Roba</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy31"  onmouseover="setToolVisibility  ('ratemy31', 'none', 'rateneed31', 'inline')">_____
+</span>
+<span id="rateneed31"  onmouseout="setToolVisibility  ('ratemy31', 'inline', 'rateneed31', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1060778">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1060778">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1060778">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1060778">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1060778">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500015024870 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD B  </td>
+</tr>
+<tr class="patFuncEntry"><td  class="patFuncMark"><span tabindex="-1" id="id_pfmark_canceli2852922x31" class="visually-hidden">Renew</span><input type="checkbox" name="name_pfmark_canceli2852922x31" aria-labelledby="id_pfmark_canceli2852922x31 id_pfbibtitle_titlei2852922x31" value="i2852922"/>
+<th scope="row"  class="patFuncBibTitle"><a id="id_pfbibtitle_titlei2852922x31" href="https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1827733?lang=frf&suite=def"><span class="patFuncTitleMain">A la folie !  [Texte imprimé] / Zep</span></a>
+<br />
+
+</th>
+<td nowrap  class="patFuncRating" >
+
+<span id="ratemy32"  onmouseover="setToolVisibility  ('ratemy32', 'none', 'rateneed32', 'inline')">_____
+</span>
+<span id="rateneed32"  onmouseout="setToolVisibility  ('ratemy32', 'inline', 'rateneed32', 'none')"><a href="/patroninfo~S1*frf/1187891/items?changerating1=b1827733">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating2=b1827733">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating3=b1827733">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating4=b1827733">?</a><a href="/patroninfo~S1*frf/1187891/items?changerating5=b1827733">?</a>
+</span></td>
+<td  class="patFuncBarcode"> 33500015968902 </td>
+<td  class="patFuncStatus"> RETOUR 23-07-21  <span  class="patFuncRenewCount">Renouvelé une fois</span>
+</td>
+<td  class="patFuncCallNo"> BD T  </td>
+</tr>
+</table>
+
+<a href="#"  onClick="return submitCheckout( 'sortByCheckoutDate', 'bycheckoutdate' )"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Trier par date d'emprunt</span></span></div></div></a>
+<input type="HIDDEN" name="currentsortorder" value="current_duedate" />
+<a href="#"  onClick="return submitCheckout( 'requestRenewAll', 'requestRenewAll' )"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renouveler tout</span></span></div></div></a>
+<a href="#"  onClick="return submitCheckout( 'requestRenewSome', 'requestRenewSome' )"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Renouveler la s&#233lection</span></span></div></div></a>
+</nobr>
+</form><script type="text/JavaScript"> var patronInfoNav = {menuItemHolds:"0 demandes (réservations).", menuItemChkout:"32 exemplaires actuellement emprunté(s)", menuItemFines:" d'amendes et factures impayées", menuItemBookings:"0 exemplaires réservés pour un usage futur", menuItemIllreqs:"0  Demande de Prêt entre Bibliothèques "};
+for (var prop in patronInfoNav) {
+    var element = document.getElementById([prop]);
+    if( !!element )
+        element.innerText = patronInfoNav[prop];
+}
+</script>
+<!--this is customized <screens/patronview_web.html>-->
+   </div>
+<!-- this script must be included for this template to display properly in encore -->
+<script type="text/javascript" src="/screens/setdomain.js"></script>
+</body>
+</html>
+
