@@ -1,5 +1,5 @@
 from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
-from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.items import BookItem
+from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.items import BookItem, BookLoader
 import scrapy
 from scrapy_playwright.page import PageCoroutine
 from scrapy.loader import ItemLoader
@@ -38,31 +38,30 @@ class BibliRennesSpider(scrapy.Spider):
         else:
             self.logger.info("Successfully logged to BibliRennes with card " + self.cardId)
             elts = response.frames["accountContentIframe"].css("tr.patFuncEntry")
-            requests = self.parse_entries(elts)
-            for req in requests:
-                yield req
+            return self.parse_entries(elts)
+            
 
     def parse_entries(self, entries):
-        result = []
         for current_entry in entries:
-            loader = ItemLoader(item=BookItem(), selector=current_entry)
+            loader = BookLoader(item=BookItem(), selector=current_entry)
             barcode = current_entry.xpath("td[@class='patFuncBarcode']/text()").get()
             loader.add_value("barcode", barcode)
             loader.add_xpath("cote", "td[@class='patFuncCallNo']/text()")
             loader.add_xpath("status", "td[@class='patFuncStatus']/text()")
+            loader.add_xpath("title", "descendant::span[@class='patFuncTitleMain']/text()")
+            if len(current_entry.css("span.patFuncRenewCount")) > 0:
+                loader.add_value("renewed", True)
             self.bookLoaders[barcode] = loader
             url = current_entry.xpath("th/a/@href").get()
             req = SessionRequest(url=url,
                                  callback=self.parse_details_response,
                                  sessionId=self.cardId)
-            req.meta["barcode"] = barcode
-            result.append(req)
-        return result
+            req.meta["data"] = loader
+            yield req
+            
 
     def parse_details_response(self, response):
-        barcode = response.meta["barcode"]
-        loader = self.bookLoaders[barcode]
-        loader.add_xpath("title", "//div[@id='bibTitle']/text()")
+        loader = response.meta["data"]
         loader.add_xpath("authors", "//div[@id='dpBibAuthor']/a/text()")
         item = loader.load_item()
         return item

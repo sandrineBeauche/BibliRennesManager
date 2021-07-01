@@ -1,10 +1,9 @@
-import hamcrest
-from hamcrest.library.object.hasproperty import has_property
 from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.items import BookItem, BookLoader
 import pytest
 from datetime import date
 from hamcrest.core import assert_that
 from hamcrest.core.core.isequal import equal_to
+from hamcrest.library.object.hasproperty import has_property
 
 @pytest.fixture
 def loader():
@@ -51,3 +50,7 @@ def test_book_loader_deadline(item):
 
 def test_book_loader_renewed(item):
     item("renewed", True, True)
+
+
+def test_book_loader_status(item):
+    item("status", "\n\t   RETOUR 06-07-21         \n", "RETOUR 06-07-21")

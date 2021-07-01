@@ -46,7 +46,7 @@ def extract_author(author: str):
         return author
 
 def stripAll(value: str): 
-    value.strip("\n\t ")
+    return value.strip("\n\t ")
 
 
 def extract_deadline(value: str):
