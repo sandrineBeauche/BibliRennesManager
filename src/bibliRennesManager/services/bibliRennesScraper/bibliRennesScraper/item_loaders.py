@@ -6,18 +6,38 @@ class BibliRennesLoader(ItemLoader):
     default_input_processor = MapCompose(str.strip)
     default_output_processor = TakeFirst()
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(**kwargs)
+        if "response" in kwargs:
+            self.response = kwargs["response"]
 
 
 class BookLoader(BibliRennesLoader):
     title_in = MapCompose(processors.extract_title, str.strip)
     
     authors_in = MapCompose(processors.extract_author, str.strip)
-    authors_out = Join(separator=", ")
+    authors_out = Join(separator=" - ")
 
     exemplaires_in = Identity()
     exemplaires_out = Identity()
 
     notes_out = Join(separator=", ")
+
+
+    def add_details_values(self, label, link, field):
+        
+        def get_details_values(label, link=False):
+            elts = self.response.xpath("//td[normalize-space() = '" + label + "']") 
+            if link:
+                pattern = "../td[2]/div/a/text()"
+            else:
+                pattern = "../td[2]/div/text()"
+            result = [c.get() for current in elts for c in current.xpath(pattern)]
+            return result    
+        
+        for value in get_details_values(label, link):
+            if value != '':
+                self.add_value(field, value)
 
     
 class ExemplaireLoader(BibliRennesLoader):

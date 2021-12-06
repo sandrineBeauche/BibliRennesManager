@@ -1,52 +1,67 @@
-from .utils import fake_response_from_file
-from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.spiders.account_spider import BibliRennesAccountSpider
-from scrapy.http import Response, Request
-from hamcrest.core import assert_that
-from hamcrest.library.object.haslength import has_length
-from hamcrest.library.collection.issequence_containing import has_item, has_items
-from hamcrest.library.object.hasproperty import has_properties, has_property
-from hamcrest.core.core.isequal import equal_to
+from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.spiders.bibliRennesSpider import BibliRennesSpider, parse_exemplar
 import pytest
+from .utils import fake_response_from_file, selector_from_file
+from hamcrest.core import assert_that
+from hamcrest.library.object.hasproperty import has_properties, has_property
+from hamcrest.library.object.haslength import has_length
+from hamcrest.core.core.isnone import none
+from scrapy.selector import Selector
 
 @pytest.fixture
-def account_response():
-    response = fake_response_from_file("compte_lecteur_items.html")
-    parent_response = Response(url=response.url)
-    parent_response.frames = {"accountContentIframe": response}
-    return parent_response
+def livre1_response():
+    return fake_response_from_file("livre1.html")
+
+@pytest.fixture
+def livre2_response():
+    return fake_response_from_file("livre2.html")
 
 
 @pytest.fixture
 def spider():
-    return BibliRennesAccountSpider("123456789", "password1")
+    return BibliRennesSpider()
 
 
-def test_spider_account(account_response, spider):
-    result = spider.parse_login_response(account_response)
-    requests = list(result)
-    def get_item(x):
-        return x.meta["data"]
-    items = list(map(get_item, requests))
-    
-    assert_that(requests, has_length(32))
-    assert_that(requests, has_items(
-        has_property("url", equal_to("https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060092?lang=frf&suite=def")),
-        has_property("url", equal_to("https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1843465?lang=frf&suite=def"))
-    ))
-    assert_that(items, has_items(
-        has_properties({"barcode": "33500600918569",
-                        "cote": "P 840",
-                        "status": "RETOUR 06-07-21",
-                        "renewed": True
-                        }),
-        has_properties({"barcode": "33500600861371",
-                        "cote": "BD L",
-                        "status": "RETOUR 06-07-21",
-                        "renewed": True
-                        }),
-        has_properties({"barcode": "33500600912059",
-                        "cote": "RE VAL",
-                        "status": "RETOUR 06-07-21",
-                        "renewed": False
-                        })
-    ))
+@pytest.fixture
+def exemplar1():
+    return selector_from_file("exemplar1.html", "//html/body/table/tr")
+
+@pytest.fixture
+def exemplar2():
+    return selector_from_file("exemplar2.html", "//html/body/table/tr")
+
+
+def test_parse_exemplar1(exemplar1):
+    result = parse_exemplar(exemplar1)
+    assert_that(result, has_properties({
+        "localisation": "Champs-Manceaux enfant",
+        "cote": "BD HER",
+        "status": "EN RAYON",
+        "condition": "."
+    }))
+
+
+
+def test_spider_book1(livre1_response, spider):
+    result = spider.parse_details_response(livre1_response)
+    assert_that(result, has_properties({
+        "title": "L'héritage de Rantanplan",
+        "authors": "Morris - Goscinny, René",
+        "exemplaires": has_length(2),
+        "notes": "Vol. 41 dans l'ordre chronologique",
+        "description": "47 p. ill. en noir et en coul., couv. ill. en coul. 30 cm",
+        "publication": "[Givrins] (Suisse) : Lucky comics [Paris] : [diff. Dargaud], 2003 (93-Pantin  : Impr. PPO graphic)",
+        "resume": None
+    }))
+
+
+def test_spider_book2(livre2_response, spider):
+    result = spider.parse_details_response(livre2_response)
+    assert_that(result, has_properties({
+        "title": "Ramdam sur le rift",
+        "authors": "Herlé - Widenlocher, Roger",
+        "exemplaires": has_length(6),
+        "notes": '',
+        "description": "47p.",
+        "publication": "Paris : Dargaud, 1999",
+        "resume": None
+    }))
