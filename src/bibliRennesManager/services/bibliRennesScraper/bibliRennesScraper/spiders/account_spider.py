@@ -47,10 +47,16 @@ class BibliRennesAccountSpider(BibliRennesSpider):
             loader.add_xpath("status", "td[@class='patFuncStatus']/text()")
             if len(current_entry.css("span.patFuncRenewCount")) > 0:
                 loader.add_value("renewed", True)
+            loader.add_value("cardId", self.cardId)
             url = current_entry.xpath("th/a/@href").get()
+            page_coro=[
+                PageCoroutine("wait_for_selector", selector="div.itemBookCover img"),
+            ]
             req = SessionRequest(url=url,
                                  callback=self.parse_details_response,
-                                 sessionId=self.cardId)
+                                 sessionId=self.cardId,
+                                 page_coro=page_coro,
+                                 )
             req.meta["data"] = loader.load_item()
             yield req
 

@@ -1,3 +1,4 @@
+from ...src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.spiders.bibliRennesSpider import BibliRennesSpider, parse_exemplar
 import pytest
 from .utils import fake_response_from_file, selector_from_file
 from hamcrest.core import assert_that

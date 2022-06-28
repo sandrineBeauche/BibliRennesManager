@@ -5,12 +5,12 @@ plugins {
 python {
     minPythonVersion '3.9.5'
     pip 'Scrapy:2.5.0'
-    pip 'PyQt5:5.15.4'
     pip 'tinydb:4.4.0'
     pip 'scrapy-playwright:0.0.3'
     pip 'pyclean:2.0.0'
     pip 'pytest:6.2.4'
     pip 'PyHamcrest:2.0.2'
+    pip 'Pillow:9.0'
 }
 
 def sitePackageDir = "$projectDir/.gradle/python/lib/python3.9/site-packages"
@@ -47,4 +47,8 @@ task cleanPython {
 }
 
 task cleanAll(dependsOn: [cleanCache, cleanPython]){
+}
+
+task run(type: PythonTask, dependsOn: [setupEnv]) { 
+    command = "src/main.py"
 }

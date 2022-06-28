@@ -1,0 +1,1580 @@
+[
+{
+    "book": {
+        "title": "La pièce secrète",
+        "authors": "Desbordes, Astrid - Boutavant, Marc",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "A D",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2057522?lang=frf&suite=def",
+        "notes": "À partir de 3 ans",
+        "description": "1 vol. (non paginé [25] p.) : ill. en coul. 21 cm",
+        "publication": "Paris : Nathan Jeunesse, 2020",
+        "resume": "Alors qu'il balayait le châtaignier, Edmond l'écureuil découvre l'accès à une pièce secrète située sous la terre. Bien vite, il se rend compte que c'est elle qui maintient le châtaignier debout. Un récit pour découvrir l'importance de ce qui n'est pas visible avec les yeux. ©Electre 2020",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782092591000,0-5848373&Size=Scaled&WidgetToken=T82phIgQYivWgWJBIQs2sZD1VluiiIZ166kIdTnHHQAlm13hL0H4FZsI2Fx47N7u5mBMPXmPyvhGPs%2bCYRdb0Q%3d%3d"
+    },
+    "barcode": "33510600355159",
+    "cote": "A D",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Moi, je sais tout sur les mamans Texte imprimé Nathalie Delebarre",
+        "authors": "Delebarre, Nathalie - Blanz, Aurélie",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "A DEL",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1733701?lang=frf&suite=def",
+        "notes": "Apprentissage (à partir de 3 ans)",
+        "description": "1 vol. (non paginé [24] p.) : ill. en coul., couv. ill. en coul. 24 cm",
+        "publication": "[Paris] : Gautier-Languereau, DL 2009 (impr. en Italie",
+        "resume": "Pour découvrir les secrets des mamans : par exemple, si ce sont elles qui mettent quelque chose sous l'oreiller quand on a perdu une dent, ou une petite souris...",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782013930390,0-505452&Size=Scaled&WidgetToken=zYRGAujeP20cYYmz7y9A%2fYQHZycNnvpj2GfW5Q63ZP%2bEFU0KsQo%2fOelTPewymx8wS7ZP9lPKLwZrufS6nyiVTQ%3d%3d"
+    },
+    "barcode": "33500014715197",
+    "cote": "A DEL",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+[
+{
+    "book": {
+        "title": "Le monde des lettres par Anne-Marie Labrecque illustrations, Mathieu Dionne St-Arneault",
+        "authors": "Labrecque, Anne-Marie - Dionne St-Arneault, Mathieu",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "6 FRANCAIS",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2105731?lang=frf&suite=def",
+        "notes": "À partir de 2 ans",
+        "description": "1 vol. (non paginé [66] p.) : ill. en coul. 26 cm",
+        "publication": "Montrouge (Hauts-de-Seine) : Bayard Jeunesse, 2021",
+        "resume": "Un abécédaire pour découvrir les 26 lettres de l'alphabet en les recherchant dans des phrases amusantes. ©Electre 2021",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9791036323706,0-7380161&Size=Scaled&WidgetToken=P5mMk58kYrejHf1MckAqIF5YnRwhR9c95oNrOJGaNbiFBE8q%2bUW6ugmjXklgyOR2eRVvx35MfTBiSI7%2fM7HEPg%3d%3d"
+    },
+    "barcode": "33500600941868",
+    "cote": "6 FRANCAIS",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "La fabuleuse méthode de lecture du professeur Tagada",
+        "authors": "Nicolas, Christophe - Long, Guillaume",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "6 FRANCAIS",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            },
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "6 FRANCAIS",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1860109?lang=frf&suite=def",
+        "notes": "Apprentissage (à partir de 3 ans)",
+        "description": "1 vol. (45 p.) : illustrations en couleur ; 25 cm",
+        "publication": "Paris : Didier Jeunesse, 2013",
+        "resume": "Le professeur Tagada et son assistant le poussin Tsoin-Tsoin vont apprendre à l'enfant comment lire en 10 leçons. Une bande dessinée aux vertus pédagogiques et comiques.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782278075003,0-1680066&Size=Scaled&WidgetToken=5XF06Xt9guIwRaVaGfC%2bshbsb9%2bg3iYXwBzuWXIqTMwbrDZxslSWEikUO6T27yEHo259glUAq7ni2FalvkjxCg%3d%3d"
+    },
+    "barcode": "33500600589352",
+    "cote": "6 FRANCAIS",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+[
+{
+    "book": {
+        "title": "Ianos et le dragon d'étoiles",
+        "authors": "Fdida, Jean-Jacques - Lejonc, Régis",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "C EUROPE",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1905909?lang=frf&suite=def",
+        "notes": "À partir de 6 ans",
+        "description": "1 vol. (non paginé [34] p.) : ill. en coul. 32 cm",
+        "publication": "Paris : Didier jeunesse, impr. 2014 (85-Luçon  : Impr. Pollina)",
+        "resume": "Ianos, un jeune Tzigane, part combattre le dragon qui a mangé la lune et les étoiles. ©Electre 2015",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782278078004,0-2506112&Size=Scaled&WidgetToken=e09cD%2fxNMR5f8aAxAiU3IW8%2bvChdBc%2b7E4whs%2fVCuZgJMv%2buJt6iRN6zRIcY4Gu8hQH5XSd21OwT3QQx1e%2bn7w%3d%3d"
+    },
+    "barcode": "33500600636179",
+    "cote": "C EUROPE",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Le mystère Ferdinand",
+        "authors": "Mim - Courgeon, Rémi",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A C",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            },
+            {
+                "localisation": "Maurepas enfant",
+                "cote": "A MIM",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1804982?lang=frf&suite=def",
+        "notes": "À partir de 3 ans",
+        "description": "1 vol. (40 p.) : illustrations en couleur ; 29 cm",
+        "publication": "Toulouse : Milan jeunesse, 2011",
+        "resume": "Perdu dans la forêt avec sa grand-mère, le petit Martin est secouru par Ferdinand, un homme impressionnant et gentil qui se déplace toujours avec son loup blanc.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782745955593,0-1254664&Size=Scaled&WidgetToken=%2ftwiWndV%2fExIN8R5uMrFM2lmqnJAmD4R9Z9hu%2fO5blP7auyCXrr1x7jgNTfs%2fVN%2fhH2Ni6flAonWsZpaw8mVkA%3d%3d"
+    },
+    "barcode": "33500600532295",
+    "cote": "A C",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Terrain minets",
+        "authors": "Cauvin, Raoul - Laudec",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD C",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1290403?lang=frf&suite=def",
+        "notes": "",
+        "description": "1 vol. (46 p.)",
+        "publication": ": Dupuis, 1998",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782800125961,0-1015575&Size=Scaled&WidgetToken=zL7pcDRs%2bWWKNFyvAwx7Q5BY95fKAE95wiXAueY%2fIFeb8FRhtq2lzfjU0Kzv1CSIR7tI%2bnfaLvJEz1YMB5IrTw%3d%3d"
+    },
+    "barcode": "33500600170658",
+    "cote": "BD C",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "La princesse de chiffon",
+        "authors": "Emorine, Marie-Pierre",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "A EMO",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1772181?lang=frf&suite=def",
+        "notes": "À partir de 3 ans",
+        "description": "1 vol. (36 p.) : illustrations en couleur ; 25 cm",
+        "publication": "Paris : Scarabea, 2010",
+        "resume": "Une poupée de chiffon est métamorphosée en princesse de chiffon par la magie des ciseaux de Grand-mère. Désireuse de trouver un prince, la poupée commence à coudre et fabrique un crapaud, qu'elle embrasse. Mais au lieu de devenir prince, celui-ci se transforme en crocodile et déchire les habits de la princesse. Grand-mère la recoud et la transforme en prince de chiffon.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782849141557,0-573750&Size=Scaled&WidgetToken=qLU65SSpDd7HmiN8OsbzMtMQXz%2fikXSrlLUsCwMruSM2uzyipHT0oKeDj31Ur9%2fRBapOWmIZhpYsgJiq%2fVNx2Q%3d%3d"
+    },
+    "barcode": "33500015622103",
+    "cote": "A EMO",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Le livre abominable",
+        "authors": "Carlain, Noé - Badel, Ronan",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "A CAR",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1810134?lang=frf&suite=def",
+        "notes": "À partir de 4 ans",
+        "description": "1 vol. (non paginé [48] p.) : ill. en coul., couv. ill. en coul. 31 cm",
+        "publication": "Paris : Sarbacane, DL 2012 (impr. à Singapour",
+        "resume": "Toutes les occasions de la vie où un petit garçon peut éprouver une impression terriblement abominable : quand son chien le lèche juste après avoir mangé sa pâtée, quand sa mère l'appelle mon trésor devant ses copains d'école...",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782848654911,0-1284646&Size=Scaled&WidgetToken=sawer3rXGceOen96%2bA6t4S5JxIBdfZrFQKzXhsZ9r4eS9ecOFOaXtk5C8XaEUEo%2bfVJUawOA7oi1jRs3dNEibg%3d%3d"
+    },
+    "barcode": "33500015313786",
+    "cote": "A CAR",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Mosaïques Marie Enderlen-Debuisson illustrations de Denis Cauquetoux photographies Olivier d'Huissier",
+        "authors": "Enderlen-Debuisson, Marie - Cauquetoux, Denis - Huissier, Olivier d'",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "14 MOSAIQUE",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1680189?lang=frf&suite=def",
+        "notes": "Lecteurs débutants (à partir de 6 ans)",
+        "description": "37 p. illustrations en couleur ; 24 x 22 cm",
+        "publication": "Paris : Fleurus, 2004",
+        "resume": "Avec des matériaux faciles à utiliser et ne présentant aucun danger (graines, papier, feutrine, coquilles d'oeufs, végétaux), les petits sont invités à pratiquer la mosaïque pour réaliser toutes sortes d'objets : cartes, tampons, cadres, boîtes, pots, masques, etc. Les étapes de fabrication sont illustrées de sorte que les plus jeunes puissent comprendre.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782215076636,0-242201&Size=Scaled&WidgetToken=s1b24BCdI%2bHpA476GqeYy%2fVuoD9Mbd5%2fVlsbGawb3y1Ty6pbxYB8ggX%2bKS%2bVel0TzdQ%2fCl5kBREHXmYkGmvO4g%3d%3d"
+    },
+    "barcode": "33500100169861",
+    "cote": "14 MOSAIQUE",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Masques",
+        "authors": "Desclides, Coline - Lépine, Élodie",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "14 COSTUMES",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1966497?lang=frf&suite=def",
+        "notes": "À partir de 4 ans",
+        "description": "1 vol. (31 p.) : illustrations en couleur ; 24 cm",
+        "publication": "Paris : Fleurus, DL 2017 (85-Luçon  : Impr. Pollina)",
+        "resume": "Des modèles pour créer ses premiers masques. ©Electre 2017",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782215157908,0-3888187&Size=Scaled&WidgetToken=67kHSX2WLRipw6NXrdwJ3yQpfS1Bb8rN%2b00l9SDlJS5W%2fRF2V4nCtvPf%2bYyieD6518pD25Ycr33tKUsZZ3qKlw%3d%3d"
+    },
+    "barcode": "33500600735385",
+    "cote": "14 COSTUMES",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Sous l'orage Kazuo Iwamura",
+        "authors": "Iwamura, Kazuo",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A I",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1483661?lang=frf&suite=def",
+        "notes": "",
+        "description": "Non paginé : ill.",
+        "publication": "Namur : Mijade, 2004",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782871424130,0-196914&Size=Scaled&WidgetToken=umdcn%2fvFCvrLW1qMP%2bUduvsja9YSgxvlbiMlACgo1C98%2feJicTKo6Kjt1dd6NDokoIa%2f7nk9wpj78Gm1RzRhcA%3d%3d"
+    },
+    "barcode": "33500600196117",
+    "cote": "A I",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Le châle de Nonna texte Florence Dutruc-Rosset illustration Juliette Barbanègre",
+        "authors": "Dutruc-Rosset, Florence - Barbanègre, Juliette",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A D",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2125534?lang=frf&suite=def",
+        "notes": "À partir de 5 ans",
+        "description": "1 vol. (33 p.) : illustrations en couleur ; 27 x 22 cm",
+        "publication": "Montrouge (Hauts-de-Seine) : Bayard Jeunesse, 2022",
+        "resume": "Capucine est élevée par sa grand-mère, qu'elle appelle Nonna. Aimante, cette dernière lui raconte chaque soir ses souvenirs les plus précieux, jusqu'à son décès. Dans l'espoir de la retrouver, Capucine monte tout en haut de la montagne sacrée. Sa route la mène pas à pas vers l'acceptation et l'apaisement. Un conte sur le deuil et la résilience. ©Electre 2022",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9791036330346,0-8104249&Size=Scaled&WidgetToken=qmcLASrjMwVarJSrzzs5nehL0mZDRnGSVSwwvfloD1onojoKxpWZvpnR8C00vd8vCrAbQ9VYzWfqJ6VgrJIB%2bQ%3d%3d"
+    },
+    "barcode": "33500600967905",
+    "cote": "A D",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Un jour avec toi",
+        "authors": "Jacoby, Sarah - Cassim, Shaïne",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A J",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1993540?lang=frf&suite=def",
+        "notes": "À partir de 6 ans",
+        "description": "1 vol. (non paginé [31] p.) : ill. en coul. 25 x 29 cm",
+        "publication": "Bruxelles ;  [Paris] : les Albums Casterman, DL 2018",
+        "resume": "L'évocation des instants partagés lors d'un voyage chez les grands-parents (le petit déjeuner, la préparation des bagages, le train, une partie de pêche, la soirée au coin du feu ou encore le retour) est prétexte à une réflexion poétique sur le temps. ©Electre 2018",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782203158412,0-4898103&Size=Scaled&WidgetToken=5vyI3vJZwJC4KlZ%2frBaQ4oE2sCH%2fNd2jbTgwH8CWuZSCcqtb2zHyw80yUGqQjVsQ66CTlBohM7HOPNLD8ld%2f7Q%3d%3d"
+    },
+    "barcode": "33500600774152",
+    "cote": "A J",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Les mystères de l'Atlantide",
+        "authors": "Barks, Carl - Walt Disney company",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD D",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1802817?lang=frf&suite=def",
+        "notes": "Bons lecteurs (à partir de 9 ans)",
+        "description": "1 vol. illustrations en couleur ; 25 cm",
+        "publication": "Grenoble : Glénat, 2011",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782723483148,0-1225555&Size=Scaled&WidgetToken=cbyS%2byocc9o4rabjMMfjdcG%2fZq7aMjN3TCxKRYUjr2x5skX6MhB79KAxcUMu9hKdcsWHZgBrVqqjqLPwqXcNuw%3d%3d"
+    },
+    "barcode": "33500600529093",
+    "cote": "BD D",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "La mauvaise tête Franquin",
+        "authors": "Franquin, André",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD S",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1016075?lang=frf&suite=def",
+        "notes": "",
+        "description": "60 p. ill. en coul., couv. ill. en coul. 30 cm",
+        "publication": "Paris : Dupuis, 1991 (Impr. en Belgique",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782800100104,0-890295&Size=Scaled&WidgetToken=qOojivQbJ0%2fN3D%2fI6lQiSc%2bcdiGyzMdq7NHOjemjn6YYwJt%2fAXIwk5pscvgi0Kmz0pmXchNelkLq6OKuP3kVzg%3d%3d"
+    },
+    "barcode": "33500600182026",
+    "cote": "BD S",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Rantanplan otage dessin Morris scénario Xavier Fauche, Jean Léturgie",
+        "authors": "Morris - Fauche, Xavier - Léturgie, Jean",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD R",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2126716?lang=frf&suite=def",
+        "notes": "À partir de 9 ans",
+        "description": "1 vol. (46 p.) : illustrations en couleur ; 30 x 23 cm",
+        "publication": "Givrins (Suisse) : Lucky Productions, 2000",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782940012107,0-866288&Size=Scaled&WidgetToken=PwLe2JVR5Xu%2b7JMckKCZ%2bZNI7bpvkS6oGM8EReAiQugPME%2bNjEmVXjQ5wWS9%2ft10a7hHrwbxTxfgLwm2kM%2bwUA%3d%3d"
+    },
+    "barcode": "33500600972574",
+    "cote": "BD R",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Le dernier iceberg",
+        "authors": "Carlain, Noé - Desvaux, Olivier",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "AG CAR",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1778503?lang=frf&suite=def",
+        "notes": "À partir de 6 ans",
+        "description": "1 vol. (34 p.) : illustrations en couleur ; 33 cm",
+        "publication": "Paris : Ed. Sarbacane, 2010",
+        "resume": "Un jeune Indien monté sur un étrange cheval de bois quitte sa cité futuriste et tombe sur le tout dernier des grands icebergs, ces monuments de glace dont son père lui parlait autrefois. Il décide de l'accompagner dans son ultime voyage. Une quête initiatique sur fond de fable écologique qui le mènera à sa vérité, guidé par les oiseaux.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782848653945,0-602997&Size=Scaled&WidgetToken=UMiEvcbCph%2bSan9KaDjIEmrEakp2KX1NRz5BQLomlw6Wl5Pbq2P0CsxKGizyK2AyyPh7BB6PHQvl48WJHQIbiw%3d%3d"
+    },
+    "barcode": "33500015662430",
+    "cote": "AG CAR",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Mon panda",
+        "authors": "Bădescu, Ramona - Chiaki",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "A BAD",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1702943?lang=frf&suite=def",
+        "notes": "Apprentissage (à partir de 3 ans)",
+        "description": "1 vol. (non paginé [24] p.) : ill. en coul., couv. ill. en coul. 24 cm",
+        "publication": "Saint-Pierre-de-Cormeilles : Éd. Belize, DL 2008 (91-Palaiseau  : Impr. PPO graphic)",
+        "resume": "Un doudou disparu : un sujet qui parle aux petits. Un graphisme sobre composé de traits et d'aplats à l'encre noire. Des zones de couleur composées de collages de papier japonais illuminent l'ensemble et apportent une touche vive et chaleureuse.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782917289136,0-447536&Size=Scaled&WidgetToken=8A05OS1KkMLks5gf5YCkqwg8DiIpJlAKnfc5sLzUeRPO36xhXuPSvhQwgp1p%2fvE%2bX7PD7NjGkq%2bi7WD762lvXw%3d%3d"
+    },
+    "barcode": "33500014097919",
+    "cote": "A BAD",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Mais pourquoi les loups sont-ils si méchants ?",
+        "authors": "Gréban, Quentin",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A G",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1725912?lang=frf&suite=def",
+        "notes": "Apprentissage (à partir de 3 ans)",
+        "description": "28 p. illustrations en couleur ; 29 x 25 cm",
+        "publication": "Namur (Belgique) : Mijade, 2009",
+        "resume": "Lorsque le loup sourit à l'agneau, celui-ci s'en effraie : il croit que le loup veut le manger. Il se sauve et va raconter toute l'histoire aux cochons, qui la rapportent à leur tour, arrangée à leur façon. Colportée de l'un à l'autre, la rumeur fait son oeuvre. Un jour, elle revient aux oreilles du loup qui ne se reconnaît pas dans ce monstre contre lequel on le met en garde.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782871426363,0-503607&Size=Scaled&WidgetToken=fd9PHNgtFDKFHUy%2fnRduUWqYNuZjcTZbaBQMuwQBwIrJVyrRvJg%2bbjRCOBkBarD4U0cP7CJ7vVwnp3bfWAchlw%3d%3d"
+    },
+    "barcode": "33500600458632",
+    "cote": "A G",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "L'Afrique de Zigomar Philippe Corentin",
+        "authors": "Corentin, Philippe",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A C",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1013849?lang=frf&suite=def",
+        "notes": "",
+        "description": "[30] p. ill. en coul., couv. ill. en coul. 31 cm",
+        "publication": "Paris : l'École des loisirs, 1990 (37-Tours  : Impr. Mame)",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782211037204,0-796803&Size=Scaled&WidgetToken=JNk0B%2f4%2bJm25y%2fOqhKUx95PCmJ2sI411%2bqioN6ov4R1zRCUGKwERtyIsUwHQnClw3I5CW3OCsQg0gHJYulJEaA%3d%3d"
+    },
+    "barcode": "33500600876205",
+    "cote": "A C",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "O'Contraire",
+        "authors": "Decoin, Didier - Huard, Alexandra",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2061754?lang=frf&suite=def",
+        "notes": "À partir de 5 ans",
+        "description": "1 vol. (non paginé [43] p.) : ill. en coul. 26 cm",
+        "publication": "Paris : R. Laffont, 2020",
+        "resume": "Sarah O'Hara, 7 ans et fille d'un propriétaire de haras, reçoit comme cadeau d'anniversaire un poulain qui vient juste de naître. Lors de sa première sortie, ce dernier galope à l'envers, provoquant l'hilarité des autres chevaux. Sarah décide alors d'appeler son protégé O'Contraire. Un jour, des bandits essaient de voler les chevaux du haras. ©Electre 2020",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782221247198,0-6731350&Size=Scaled&WidgetToken=r3gBiQ%2b2gML0mcwXl4AvA%2bhFYfmkVWqPE3hmn1JMNI2av4WnondGUWzD%2fiRpjIMIO4WcMeF2RlRdrafPWWpxnw%3d%3d"
+    },
+    "barcode": "33500600886410",
+    "cote": "A D",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Une espèce d'odyssée scénario, dessin et couleur, Malec",
+        "authors": "Malec",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD L",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2093845?lang=frf&suite=def",
+        "notes": "",
+        "description": "1 vol. (64 p.) : ill. en coul. 30 cm",
+        "publication": "Grenoble : Glénat, 2021 Rennes : Ubisoft , 2021",
+        "resume": "Des milliers de lapins crétins sont endormis à bord d'un vaisseau spatial pour se rendre sur une lointaine planète. L'un d'eux se réveille pourtant et se retrouve au coeur du multivers après une série de péripéties. Lorsqu'ils s'aperçoivent de son absence, ses camarades partent à sa recherche tandis qu'il traverse d'étranges dimensions qui transforment à chaque fois son apparence. ©Electre 2021",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782344048535,0-7351610&Size=Scaled&WidgetToken=hXmm8bLi%2b72iwZ1kyIAbcsLLnt4AIq%2bK5NKrqq9GGhk10C28rsSKge5FCM5F692nL18TRmnPSOJlF%2fB1ITd0ug%3d%3d"
+    },
+    "barcode": "33500600935571",
+    "cote": "BD L",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Sarah Bernhardt dessins Morris, scénario X. Fauche & J. Léturgie",
+        "authors": "Fauche, Xavier - Léturgie, Jean - Morris",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD L",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1355912?lang=frf&suite=def",
+        "notes": "La page de titre porte par erreur: \"scénario de Gosciny\", Vol. 50 dans l'ordre chronologique",
+        "description": null,
+        "publication": ": Lucky comics, 2001",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782884710343,0-158538&Size=Scaled&WidgetToken=UhH%2b4H1uo4d59WZSMO7mCgNCM5YFVQjfK2zTAMdSFH%2bd%2bhKyha%2fudDAILd%2f5ZOCbcdByrLgexZ3ylBE5YSGeBA%3d%3d"
+    },
+    "barcode": "33500600040455",
+    "cote": "BD L",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Tout le monde te regarde !",
+        "authors": "Janry - Tome",
+        "exemplaires": [
+            {
+                "localisation": "Clôteaux-Bréquigny enfant",
+                "cote": "BD P",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1927636?lang=frf&suite=def",
+        "notes": "À partir de 9 ans",
+        "description": "1 vol. (45 p.) : ill. en coul. 30 cm",
+        "publication": "[Marcinelle] ;  [Paris] : Dupuis, DL 2015 (91-Palaiseau  : Impr. PPO graphic)",
+        "resume": "Entre une farce dans les vestiaires de la piscine et un cours de sport de monsieur Mégot, le Petit Spirou teste la potion pour rajeunir de son ami Mamadou. Le voilà transformé en adulte. ©Electre 2015",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782800157702,0-2857912&Size=Scaled&WidgetToken=asA%2f9bN1INFrvbz4sBBHBHpoEpoPoH5at9sUOzOTA4vEUlKwHEuaB%2fkW%2bzpDljSh7c%2b1%2bsJ%2fXeURyQKscObkbg%3d%3d"
+    },
+    "barcode": "33510800029133",
+    "cote": "BD P",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Grands, méchants, et pas contents !",
+        "authors": "Cali, Davide - Poignonec, Maurèen",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A C",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2077101?lang=frf&suite=def",
+        "notes": "À partir de 3 ans",
+        "description": "1 vol. (32 p.) : illustrations en couleur ; 30 x 24 cm",
+        "publication": "Paris : ABC melody, 2021",
+        "resume": "Depuis qu'une grand-mère nommée Bergamote s'est installée dans l'ancienne maison des sept nains, les grands méchants ne peuvent plus faire peur à personne, ce qui les met très en colère. Mais ogres, sorcières et loups sont déterminés à ne pas se laisser faire. ©Electre 2021",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782368362273,0-7033500&Size=Scaled&WidgetToken=9bO9uEmTpJrmqGUPCug%2bnsFwDC4mMXqKxWphroQja43qKE1OlAO8QbHCmXKlVBcoRW13sjEOWpr8%2fdm%2bWNmHHw%3d%3d"
+    },
+    "barcode": "33500600911978",
+    "cote": "A C",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "L'oeil de Berk Julien Béziat",
+        "authors": "Béziat, Julien",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "A B",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2066278?lang=frf&suite=def",
+        "notes": "À partir de 4 ans",
+        "description": "1 vol. (non paginé [33] p.) : ill. en coul. 31 cm",
+        "publication": "Paris : Ecole des loisirs, 2020",
+        "resume": "Le narrateur raconte comment un jour, alors que son canard Berk s'amusait dans la cuisine avec ses amis Lapinot, l'ours Franky, Tom le chien saucisse et Verte la souris, l'oeil de Berk a sauté dans la cuisine. ©Electre 2020",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782211308243,0-6818788&Size=Scaled&WidgetToken=4q1UzLD%2bni9rnvRlwxXPfcePuc6jOw0InGFicWKHVBgLG9TeM9lCSmdC9nLuc1rFUZjtso1I4sKTeXGL1QfmDA%3d%3d"
+    },
+    "barcode": "33500600894422",
+    "cote": "A B",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "La natation Lucien Lacoste, Maria Semerjian ill. de Hélène Fuggetta",
+        "authors": "Fuggetta, Hélène - Lacoste, Lucien - Semerjian, Maria",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "15 NATATION",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1291447?lang=frf&suite=def",
+        "notes": "",
+        "description": "143p.",
+        "publication": ": Milan, 1998",
+        "resume": null,
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782841136902,0-1026329&Size=Scaled&WidgetToken=2oTJH%2fhswkgRMHA%2bdobQZSb%2bEpqnUJWIO3dgtPyGbP9ANShpN3RMRbXXcpbdHVwFlq0Oa5jgIUS0f%2fB9PgJw9A%3d%3d"
+    },
+    "barcode": "33500100035922",
+    "cote": "15 NATATION",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "T'es gonflé !",
+        "authors": "Tome - Janry",
+        "exemplaires": [
+            {
+                "localisation": "Clôteaux-Bréquigny enfant",
+                "cote": "BD P",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1839167?lang=frf&suite=def",
+        "notes": "",
+        "description": "1 vol. (46 p.) : illustrations en couleur ; 30 cm",
+        "publication": "Marcinelle (Belgique) : Dupuis, 2012",
+        "resume": "Grand-Papy joue à saute-mouton la nuit avec Gourmandine, Grand-Mamy fait la gâteuse dans le bus et M. Mégot joue au séducteur. Les adultes sont fous mais le petit Spirou est là pour leur insuffler un peu de sagesse. Avec un cahier de 8 pages en 3D et des lunettes adaptées.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782800156958,0-1485376&Size=Scaled&WidgetToken=sa3eM%2f2MgkMJFxAhlhslQeVgP1%2bd%2b0uihPeGZGiUOvVdnIRfjnYzS2BnKJ5wjf1NHaqpgEMJj8TG3GRXJhqMIg%3d%3d"
+    },
+    "barcode": "33500016134074",
+    "cote": "BD P",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Spirou et Fantasio Intégrale 15 1988-1991",
+        "authors": "Tome - Janry",
+        "exemplaires": [
+            {
+                "localisation": "Clôteaux-Bréquigny enfant",
+                "cote": "BD S",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1918810?lang=frf&suite=def",
+        "notes": "Réunit : \"Frousse aux trousses\" ; \"Spirou et Fantasio à Moscou\" ; \"Vito la déveine\" ; \"La vallée des bannis\", D'après les personnages créés par Franquin, À partir de 9 ans",
+        "description": "1 vol. (252 p.) : ill. en noir et en coul., couv. ill. en coul. 30 cm",
+        "publication": "[Marcinelle] ;  [Paris] : Dupuis, DL 2014 (impr. en Italie",
+        "resume": "Réunit quatre aventures de Spirou et Fantasio. ©Electre 2015",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782800160870,0-2004836&Size=Scaled&WidgetToken=1gp%2bz6UugmuFEvYNV2kXypiBRqig45nghxmXBsfzPgj%2fN5T%2bvA1IgCjnRKeSj5ArQS7K%2bl06MtJvkSrDLoOxXA%3d%3d"
+    },
+    "barcode": "33510800017054",
+    "cote": "BD S",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Pinocchio texte Carlo Collodi traduit de l'italien par Claude Sartirano images de Nathalie Novi",
+        "authors": "Collodi, Carlo - Sartirano, Claude - Novi, Nathalie",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "AG C",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1759078?lang=frf&suite=def",
+        "notes": "Lecteurs débutants (à partir de 6 ans)",
+        "description": "192 p. illustrations en couleur ; 32 x 24 cm",
+        "publication": "Paris : Rue du Monde, 2009",
+        "resume": "Pinocchio, un pantin de bois créé par Geppetto, traverse de nombreuses aventures avant d'être transformé en petit garçon. Les illustrations empruntent à la commedia dell'arte, avec ses masques et ses drapés, et aux figures intrigantes de la mythologie, avec ses pastels.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782355040900,0-545619&Size=Scaled&WidgetToken=DFHtsMWW2AgTV%2fk6ARAus%2bcNGxwoY4gRd9XBULmIBF0tXOn54lU1BtLeoqbUvND1Lgtqmt7A8I%2fUQic2aIOrLw%3d%3d"
+    },
+    "barcode": "33500600492490",
+    "cote": "AG C",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Le cerf-volant dans l'arbre He Zhihong et Guillaume Olive",
+        "authors": "He, Zhi hong - Olive, Guillaume",
+        "exemplaires": [
+            {
+                "localisation": "Antipode enfant",
+                "cote": "A HE",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            },
+            {
+                "localisation": "Antipode enfant",
+                "cote": "A HE",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1631108?lang=frf&suite=def",
+        "notes": "Apprentissage (à partir de 3 ans)",
+        "description": "32 p. ill. en coul. 25 x 25 cm",
+        "publication": "Arles (Bouches-du-Rhône) : P. Picquier, 2006",
+        "resume": "Toutes les nuits, Feng monte sur le toit de son immeuble, porte une feuille d'arbre à ses lèvres et se met à siffler comme il le faisait dans la forêt. La nature lui manque et il se sent bien seul dans cette grande ville chinoise où ses parents sont venus travailler. Un jour pourtant, il rencontre la petite Fan avec son cerf-volant rouge en forme de poisson.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782877308922,0-345318&Size=Scaled&WidgetToken=nQV%2bR7n88lqH2UX7CWh7BGso3yq7HWpJdSR3qc2RCqbDUm7LryRlEORDw8UbnqeMzZQIebmav8CjXXgKJSqbzA%3d%3d"
+    },
+    "barcode": "33500013061056",
+    "cote": "A HE",
+    "library": "Antipode enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Un cow-boy dans le coton dessin : Achdé scénario : Jul d'après Morris",
+        "authors": "Achdé - Jul - Morris",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "BD L",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            },
+            {
+                "localisation": "Clôteaux-Bréquigny enfant",
+                "cote": "BD L",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2064137?lang=frf&suite=def",
+        "notes": "À partir de 9 ans",
+        "description": "1 vol. (46 p.) : ill. en coul. 30 cm",
+        "publication": "Givrins (Suisse) : Lucky comics, 2020",
+        "resume": "Une aventure de Lucky Luke en Louisiane, dans le sud profond des Etats-Unis. ©Electre 2020",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782884714655,0-6881192&Size=Scaled&WidgetToken=XB2doF%2fwCZic2iHlowJ%2ba4XdoGR0AnPcjggEc9%2fEnzmrq7Qe1SRqLiX5hzYc0YjuKuCPYdebPh3%2b1KUTCUD%2fdw%3d%3d"
+    },
+    "barcode": "33510800167669",
+    "cote": "BD L",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Le château de glace",
+        "authors": "Furman, Simon - Lawrence, Jack",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "BD D",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1951429?lang=frf&suite=def",
+        "notes": "À partir de 7 ans",
+        "description": "1 vol. (53 p.) : ill. en coul. 30 cm",
+        "publication": "Toulon : Soleil, DL 2015",
+        "resume": "Tempête, le dragon d'Astrid, a disparu. Tout le village de Beurk part à sa recherche. Mais à l'approche d'un mystérieux château de glace, le groupe d'amis doit affronter une situation inattendue. Avec une courte histoire consacrée à Rustik en bonus. ©Electre 2016",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782302047785,0-2680763&Size=Scaled&WidgetToken=P9VT%2fIi0Ryvm9P3O3BfprcFhL6gZQqYV%2bzh%2fhV0IFG%2f63iF%2bl8rhPOsyz%2bB%2bU1VTh7i3Ut81AMbrLTR96wI%2fdw%3d%3d"
+    },
+    "barcode": "33510600097785",
+    "cote": "BD D",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Mitsu, un jour parfait Mélanie Rutten",
+        "authors": "Rutten, Mélanie",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "A RUT",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            },
+            {
+                "localisation": "Bourg-L'Evesque enfant",
+                "cote": "A RUT",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1695188?lang=frf&suite=def",
+        "notes": "Apprentissage (à partir de 3 ans)",
+        "description": ": illustrations en couleur ; 24 x 18 cm",
+        "publication": "Nantes : MeMo, 2008",
+        "resume": "Un matin, Mitsu se réveille et rien ne va. Malgré les conseils de ses amis Eliott, Mia et Öko, elle décide de changer d'air et part à l'aventure jusqu'à la forêt où elle se lie d'amitié avec un écureuil et rencontre un univers magique.",
+        "cover": null
+    },
+    "barcode": "33500014141014",
+    "cote": "A RUT",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Les Belles histoires",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060105?lang=frf&suite=def",
+        "notes": "",
+        "description": null,
+        "publication": "Paris : Bayard presse, 1999-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510600426356",
+    "cote": "P331T",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Les Belles histoires",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060105?lang=frf&suite=def",
+        "notes": "",
+        "description": null,
+        "publication": "Paris : Bayard presse, 1999-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510600377542",
+    "cote": "P331T",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+},
+{
+    "book": {
+        "title": "Le voyage de la femme éléphant Manuela Salvi Illustrations de Maurizio A. C. Quarello",
+        "authors": "Salvi, Manuela - Quarello, Maurizio A.C.",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "AG SAL",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            },
+            {
+                "localisation": "Triangle enfant",
+                "cote": "AG SAL",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1644148?lang=frf&suite=def",
+        "notes": "",
+        "description": "36 p. ill. en coul. 33 x 23 cm",
+        "publication": "Paris : Ed. Sarbacane, 2007",
+        "resume": "Véra est la femme la plus grosse du monde. De ville en ville, elle s'expose aux regards mais nul ne voit sa personne. Un beau jour, elle décide de rencontrer le correspondant dont les lettres l'ont tenue en joie étape après étape.",
+        "cover": null
+    },
+    "barcode": "33500013317425",
+    "cote": "AG SAL",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002705434"
+}
+]{
+    "book": {
+        "title": "Bienvenido a Bingo !",
+        "authors": "Batem - Colman, Stéphane - Franquin, André",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "BD M",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2021658?lang=frf&suite=def",
+        "notes": "Diffusé en France, À partir de 9 ans",
+        "description": "1 vol. (48 p.) : ill. en coul. 30 cm",
+        "publication": "Marcinelle (Belgique) : Marsu productions, DL 2017",
+        "resume": "Diane Forest, la seule botaniste à bien connaître les marsupilamis, doit protéger le plus vieux cactus du monde, el viejo milagroso, capable d'exaucer les voeux. Juste à côté de la plante a été bâtie une ville remplie de casinos et de machistes, Bingo. Les habitants prennent Diane en grippe dès son arrivée. Emprisonnée, elle parvient à s'évader pour retrouver Bibi, la petite marsupilamie. ©Electre 2019",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9791034733385,0-5789694&Size=Scaled&WidgetToken=c%2fGBfPJSyoN2P5zDrrr1gLIpWJovtHpu6KZbPagzACEClJpbz6l8hsN6YBHauVvtqzByLC3dIEtnfB0mBEKFJQ%3d%3d"
+    },
+    "barcode": "33510600269905",
+    "cote": "BD M",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Les folles aventures de Spirou",
+        "authors": "Vehlmann, Fabien - Yoann",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "BD S",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1984305?lang=frf&suite=def",
+        "notes": "À partir de 9 ans",
+        "description": "1 vol. (48 p.) : ill. en coul. 30 cm + 1 fascicule \"Spip magazine\"",
+        "publication": "[Marcinelle] ;  [Paris] : Dupuis, DL 2017 (impr. en Belgique",
+        "resume": "Recueil des histoires courtes, indépendantes parues dans Le journal de Spirou de 2008 à 2017. Avec un exemplaire du premier numéro d'une revue créée par des écureuils ayant investi Le journal de Spirou. ©Electre 2018",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782800169583,0-4396546&Size=Scaled&WidgetToken=YWnazaAXW6QcJHZ1Hduj35q4X2S1rjC%2f7C1sFEJf0g%2ffVqQK%2bRhbfED1epjQD6FcPoP4Li5vRTYKVEep4Y889Q%3d%3d"
+    },
+    "barcode": "33510600174980",
+    "cote": "BD S",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "À la piscine",
+        "authors": "Moreau, Camille - Luthringer, Mélisande",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "3-6 ANS SPORTS",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1978288?lang=frf&suite=def",
+        "notes": "À partir de 3 ans, La couv. porte: \"Cherche et trouve ! La planche, le ballon, les lunettes\", À partir de 3 ans",
+        "description": "24 p ; 20 cm",
+        "publication": "Paris : Nathan, DL 2017",
+        "resume": "21 questions et réponses pour tout savoir sur la piscine. ©Electre 2017",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782092571583,0-4196980&Size=Scaled&WidgetToken=CH3%2f3og9NVZI72MCRVNeatqA3dqaZznTkRfQCtBpoyde2YomVpurwmvcZOh4EzOyGy%2bLFaARFtSaKR9hgnqswA%3d%3d"
+    },
+    "barcode": "33500600753156",
+    "cote": "3-6 ANS SPORTS",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "La cuisine sans bla bla, spécial kids",
+        "authors": "",
+        "exemplaires": [
+            {
+                "localisation": "Clôteaux-Bréquigny adulte",
+                "cote": "641.5 CUI",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2057153?lang=frf&suite=def",
+        "notes": "Index, Tout public",
+        "description": "1 vol. (non paginé [ca 216] p.) : ill. en coul. 24 cm",
+        "publication": "Paris : Larousse, 2020",
+        "resume": "Une centaine de recettes à réaliser en famille pour initier les enfants à la cuisine : tartes, biscuits, crêpes, glaces et plats salés. ©Electre 2020",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782035995551,0-6885242&Size=Scaled&WidgetToken=OcCq63eT4U0%2f%2fzcoF6uiWUAecKXNnecSj6nt8R0qizDGHyCDsxC6ZNFKvnzn%2frwwkfrQBsYKSRSqp%2fVAs5tXmg%3d%3d"
+    },
+    "barcode": "33510800163338",
+    "cote": "641.5 CUI",
+    "library": "Clôteaux-Bréquigny adulte",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Kaléidoscope d'histoires",
+        "authors": "",
+        "exemplaires": [
+            {
+                "localisation": "Clôteaux-Bréquigny enfant",
+                "cote": "A KAL",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1900381?lang=frf&suite=def",
+        "notes": "À partir de 3 ans",
+        "description": "1 vol. (237 p.) : ill. en coul., couv. ill. en coul. 29 cm",
+        "publication": "Paris : Kaléidoscope, DL 2014 (impr. en Italie",
+        "resume": "Recueil de 25 histoires pour les petits. ©Electre 2015",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782877678292,0-2309050&Size=Scaled&WidgetToken=vKFWKFLdyh04E0BsXo6IjqXaliB8h%2bvkFVHE9rcLHsscAusgntZKWvXhd%2fsliiuZLQv1U0vEjVSRckf9lVgyeA%3d%3d"
+    },
+    "barcode": "33500017059460",
+    "cote": "A KAL",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Un essai pour Léo",
+        "authors": "Somers, Nathalie - Vidal, Oriol",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "R SOM",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2031085?lang=frf&suite=def",
+        "notes": "À partir de 9 ans",
+        "description": "1 vol. (82 p.) : ill. 20 cm",
+        "publication": "Paris : Rageot, 2019",
+        "resume": "Léo est un garçon petit et mince qui n'aime guère le sport. Jusqu'au jour où un nouvel arrivant passionné de rugby, le grand et fort Hippolyte, parvient à le convaincre de faire partie de l'équipe. Lors du tournoi entre classes de CM1, organisé par le professeur de sport, les fans de rugby se voient affronter les amateurs de football. Adapté aux lecteurs débutants et aux enfants dyslexiques. ©Electre 2019",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782700255225,0-5650721&Size=Scaled&WidgetToken=o2223wvldIyw4uOghzKe36mb3DRWZ24nTYc%2fRxgr2jC9sQ6RASfROnCUNEM%2b8YajO8pSydzUQKW6pLhoBAOhyw%3d%3d"
+    },
+    "barcode": "33510600291818",
+    "cote": "R SOM",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "L'or du serpent à plumes Alain Surget illustrations Annette Marnat",
+        "authors": "Surget, Alain - Marnat, Annette",
+        "exemplaires": [
+            {
+                "localisation": "Triangle enfant",
+                "cote": "R SUR",
+                "status": "RETOUR 20-08-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2095059?lang=frf&suite=def",
+        "notes": "À partir de 8 ans",
+        "description": "1 vol. (94 p.) : illustrations en couleur ; 20 x 15 cm",
+        "publication": "Paris : Flammarion-Jeunesse, 2021",
+        "resume": "P'tite Louise et Benjamin, embarqués sur le navire du pirate Parabas, se dirigent vers le Mexique, à la poursuite du Cap'taine Roc et de son trésor. Mais leur guide indien les attire dans une embuscade. ©Electre 2021",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782080232618,0-7331062&Size=Scaled&WidgetToken=Pxk7nTviKHI7SbX%2bTjAO7MI9QA8tXYBRqc0ikyp9jmzhvwg8FsPJx85zneGnK80LiapWLrsaaUVeIS36VxaNxQ%3d%3d"
+    },
+    "barcode": "33510600381411",
+    "cote": "R SUR",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Mon premier Bescherelle illustré Texte imprimé",
+        "authors": "Kannas, Claude - Blancou, Daniel - Bonneterre, Marie-Anne - Morize, Patrick",
+        "exemplaires": [
+            {
+                "localisation": "Les Champs Libres Enfant Rez-de-chaussée",
+                "cote": "6 FRANCAIS",
+                "status": "RETOUR 05-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1506338?lang=frf&suite=def",
+        "notes": "Primaire",
+        "description": "1 vol. (191 p.) : illustrations en couleur ; 26 cm",
+        "publication": ": Hatier, 2004",
+        "resume": "Les premières notions de vocabulaire, d'orthographe, de grammaire et de conjugaison pour les grandes sections de maternelle, le CP et le CE1",
+        "cover": null
+    },
+    "barcode": "33500100078112",
+    "cote": "6 FRANCAIS",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Père Castor histoires de toujours",
+        "authors": "",
+        "exemplaires": [
+            {
+                "localisation": "Antipode enfant",
+                "cote": "A P",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb2075452?lang=frf&suite=def",
+        "notes": "À partir de 3 ans",
+        "description": "1 vol. (128 p.) : illustrations en couleur ; 28 x 23 cm",
+        "publication": "Paris : Père Castor-Flammarion, 2018",
+        "resume": "Recueil de quinze contes du Père Castor initialement parus des années 1930 aux années 1970. ©Electre 2021",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782081441309,0-5310377&Size=Scaled&WidgetToken=aRXowyQ8%2f8wUVbpA%2f6Dm%2fD9s1KzSsDj8r4h33KdhEqOxcgz05%2f03dDvfy7uhs5XoTO%2fATilumSwn%2f4e2%2bK4W6A%3d%3d"
+    },
+    "barcode": "33510900167866",
+    "cote": "A P",
+    "library": "Antipode enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Le livre des jeux de piste et des chasses au trésor",
+        "authors": "Delalandre, Benoît - Koehly, Caroline - Binand, Mathieu",
+        "exemplaires": [
+            {
+                "localisation": "Antipode enfant",
+                "cote": "6 JEUX",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1822468?lang=frf&suite=def",
+        "notes": "Bibliogr. et webliogr. p. 61. Glossaire, À partir de 9 ans",
+        "description": "1 vol. (61 p.) : ill. en noir et en coul., couv. ill. en coul. 25 cm",
+        "publication": "Toulouse : Milan, DL 2012 (impr. en Italie",
+        "resume": "Propose plus de vingt exemples de scénarios de jeux de piste et de chasses au trésor avec des conseils sur la préparation : règles du jeu, épreuves et défis, constitution des équipes, orientation, etc.",
+        "cover": "https://www.electre.com/GetBlob.ashx?Ean=9782745956804,0-1317537&Size=Scaled&WidgetToken=SkQ1Mi2gNni%2fAe%2bDEqR81iOQu3l1Gi3DOTBFvAInGmznWZHuw0%2bzEtb%2bmpzJVNus%2bsx3jd9zZZe3cvqF4y%2fRYw%3d%3d"
+    },
+    "barcode": "33500016110959",
+    "cote": "6 JEUX",
+    "library": "Antipode enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Pomme d'api",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060076?lang=frf&suite=def",
+        "notes": "",
+        "description": null,
+        "publication": "Paris : Bayard presse, 1979-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510900195370",
+    "cote": "P1555 U",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Les Belles histoires",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060105?lang=frf&suite=def",
+        "notes": "",
+        "description": null,
+        "publication": "Paris : Bayard presse, 1999-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510900134882",
+    "cote": "P1378 U",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Pomme d'api",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060076?lang=frf&suite=def",
+        "notes": "",
+        "description": null,
+        "publication": "Paris : Bayard presse, 1979-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510900247668",
+    "cote": "P1555 U",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+},
+{
+    "book": {
+        "title": "Pomme d'api",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1060076?lang=frf&suite=def",
+        "notes": "",
+        "description": null,
+        "publication": "Paris : Bayard presse, 1979-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510900164764",
+    "cote": "P1555 U",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23510001483677"
+}
+]{
+    "book": {
+        "title": "J'aime lire Max !",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1474199?lang=frf&suite=def",
+        "notes": "",
+        "description": "23 cm.",
+        "publication": "Paris : Bayard  presse, 2001-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33500600918486",
+    "cote": "P 840",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "J'aime lire Max !",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1474199?lang=frf&suite=def",
+        "notes": "",
+        "description": "23 cm.",
+        "publication": "Paris : Bayard  presse, 2001-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33500600839278",
+    "cote": "P 840",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "J'aime lire Max !",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1474199?lang=frf&suite=def",
+        "notes": "",
+        "description": "23 cm.",
+        "publication": "Paris : Bayard  presse, 2001-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33500600923015",
+    "cote": "P 840",
+    "library": "Les Champs Libres Enfant Rez-de-chaussée",
+    "deadline": "2022-07-05",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 05-07-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Arkéo junior",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1526476?lang=frf&suite=def",
+        "notes": "La couverture porte la mention : \"A la découverte de l'archéologie\"",
+        "description": "29 cm",
+        "publication": "Dijon : Ed. Faton, 1994-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510600340060",
+    "cote": "S VDR",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "Arkéo junior",
+        "authors": "",
+        "exemplaires": [],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1526476?lang=frf&suite=def",
+        "notes": "La couverture porte la mention : \"A la découverte de l'archéologie\"",
+        "description": "29 cm",
+        "publication": "Dijon : Ed. Faton, 1994-",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33510600350150",
+    "cote": "930.1",
+    "library": "Triangle enfant",
+    "deadline": "2022-08-20",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 20-08-22",
+    "cardId": "23500002648808"
+},
+{
+    "book": {
+        "title": "La zizanie René Goscinny, dessins d'Albert Uderzo",
+        "authors": "Goscinny, René - Uderzo, Albert",
+        "exemplaires": [
+            {
+                "localisation": "Clôteaux-Bréquigny enfant",
+                "cote": "BD A",
+                "status": "RETOUR 06-07-22",
+                "condition": "."
+            }
+        ],
+        "url": "https://opac.si.leschampslibres.fr/iii/encore/record/C__Rb1328246?lang=frf&suite=def",
+        "notes": "",
+        "description": "1 vol. (48p.)",
+        "publication": ": Hachette, 1999",
+        "resume": null,
+        "cover": null
+    },
+    "barcode": "33500015563315",
+    "cote": "BD A",
+    "library": "Clôteaux-Bréquigny enfant",
+    "deadline": "2022-07-06",
+    "reservation": false,
+    "renewed": false,
+    "status": "RETOUR 06-07-22",
+    "cardId": "23500002648808"
+}
+]

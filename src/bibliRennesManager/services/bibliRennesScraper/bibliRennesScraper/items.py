@@ -5,7 +5,7 @@
 
 from dataclasses import dataclass, field
 from typing import List, Optional, Dict
-from datetime import datetime
+from datetime import date
 
 
 @dataclass
@@ -26,6 +26,7 @@ class BookItem:
     description: Optional[str] = field(default=None)
     publication: Optional[str] = field(default=None)
     resume: Optional[str] = field(default=None)
+    cover: Optional[str] = field(default=None)
     
     
 
@@ -35,8 +36,10 @@ class LoanItem:
     barcode: Optional[str] = field(default=None)
     cote: Optional[str] = field(default=None)
     library: Optional[str] = field(default=None)
-    deadline: Optional[datetime] = field(default=None)
+    deadline: Optional[date] = field(default=None)
     reservation: Optional[bool] = field(default=False)
     renewed: Optional[bool] = field(default=False)
     status: Optional[str] = field(default=None)
     cardId: Optional[str] = field(default=None)
+    #image_urls: List[str] = field(default_factory=list)
+    #images: List = field(default_factory=list)

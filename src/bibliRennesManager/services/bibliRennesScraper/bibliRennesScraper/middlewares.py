@@ -8,7 +8,7 @@ from scrapy.responsetypes import responsetypes
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
-from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
+from bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
 
 
 class BiblirennesscraperSpiderMiddleware:
@@ -110,7 +110,11 @@ class SessionPlaywrightDownloaderMiddleware:
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
-        pass
+        if exception.name == "TimeoutError" and "waiting for selector" in exception.message:
+            request.meta["playwright_page_coroutines"] = []
+            return request
+        else:
+            pass
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)

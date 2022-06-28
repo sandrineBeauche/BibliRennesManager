@@ -3,6 +3,7 @@ from ..item_loaders import ExemplaireLoader, BookLoader
 import scrapy
 
 
+
 def parse_exemplar(current_exemplar):
     exemplar_loader = ExemplaireLoader(item=Exemplaire(), selector=current_exemplar)
     if current_exemplar.xpath("td[1]/a").get() is not None:
@@ -24,7 +25,7 @@ class BibliRennesSpider(scrapy.Spider):
     name = "bibliRennesBook"
 
     def parse_details_response(self, response):
-        rows = response.xpath("//table[@class='itemTable']/tr")[1:]
+        rows = response.xpath("//table[@class='itemTable']/tbody/tr")[1:]
         exemplars = [parse_exemplar(current)
                      for current in rows]
         #selector="//div[@id='mainContentArea']"
@@ -42,5 +43,7 @@ class BibliRennesSpider(scrapy.Spider):
         book_loader.add_details_values("NOTES", False, "notes")
         book_loader.add_details_values("DESCRIPTION", False, "description")
         book_loader.add_details_values("RESUME", False, "resume")
+
+        book_loader.add_xpath("cover", "//div[@class='itemBookCover']/div/img/@src")
         
         return book_loader.load_item()

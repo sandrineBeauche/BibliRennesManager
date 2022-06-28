@@ -82,9 +82,12 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'bibliRennesScraper.pipelines.BiblirennesscraperPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    #'scrapy.pipelines.images.ImagesPipeline': 1,
+    'bibliRennesScraper.pipelines.BiblirennesscraperPipeline': 300,
+}
+
+#IMAGES_STORE = '~/.srcappy/bibliRennes/images'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -106,3 +109,17 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+FEEDS = {
+    'items.json': {
+        'format': 'json',
+        'encoding': 'utf8',
+        'store_empty': False,
+        'item_classes': ['bibliRennesScraper.items.LoanItem'],
+        'fields': None,
+        'indent': 4,
+        'item_export_kwargs': {
+           'export_empty_fields': True,
+        },
+    }
+}

@@ -5,13 +5,16 @@ from scrapy.utils.project import get_project_settings
 from os import getcwd, chdir, path
 
 
-def launch():
+def launch(cards):
     pwd = getcwd()
     scraper_dir = path.dirname(path.realpath(__file__))
     chdir(scraper_dir)
     settings = get_project_settings()
     process = CrawlerProcess(settings)
-    process.crawl("bibliRennesAccount", "23500002705434", "9ewxxjIUAfLcYGIKY1CT")
+    for card in cards:
+        cardId = card["cardId"]
+        password = card["password"]
+        process.crawl("bibliRennesAccount", cardId, password)
     chdir(pwd)
     process.start()
 
