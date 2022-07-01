@@ -85,6 +85,7 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
 ITEM_PIPELINES = {
     #'scrapy.pipelines.images.ImagesPipeline': 1,
     'bibliRennesScraper.pipelines.BiblirennesscraperPipeline': 300,
+    'bibliRennesScraper.pipelines.BibliRennesJsonPipeline': 400,
 }
 
 #IMAGES_STORE = '~/.srcappy/bibliRennes/images'
@@ -110,16 +111,16 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-FEEDS = {
-    'items.json': {
-        'format': 'json',
-        'encoding': 'utf8',
-        'store_empty': False,
-        'item_classes': ['bibliRennesScraper.items.LoanItem'],
-        'fields': None,
-        'indent': 4,
-        'item_export_kwargs': {
-           'export_empty_fields': True,
-        },
-    }
-}
+#FEEDS = {
+#    'items.json': {
+#        'format': 'json',
+#        'encoding': 'utf8',
+#        'store_empty': False,
+#        'item_classes': ['bibliRennesScraper.items.LoanItem'],
+#        'fields': None,
+#        'indent': 4,
+#        'item_export_kwargs': {
+#           'export_empty_fields': True,
+#        },
+#    }
+#}

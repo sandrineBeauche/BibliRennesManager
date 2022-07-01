@@ -5,8 +5,8 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
 from datetime import datetime
+from scrapy.exporters import JsonItemExporter
 
 class BiblirennesscraperPipeline:
 
@@ -24,4 +24,33 @@ class BiblirennesscraperPipeline:
         else:
             if item.deadline in self.localisations:
                 item.library = self.localisations[item.deadline]
+        return item
+
+
+class BibliRennesJsonPipeline:
+
+    cards_spiders = []
+
+    exporter = []
+
+    jsonFile = []
+
+    def open_spider(self, spider):
+        if not self.cards_spiders:
+            self.jsonFile.append(open(f'items.json', 'wb'))
+            self.exporter.append(JsonItemExporter(self.jsonFile[0], indent=4, encoding='utf8'))
+            self.exporter[0].start_exporting()
+        card = spider.cardId
+        self.cards_spiders.append(card)
+
+    def close_spider(self, spider):
+        card = spider.cardId
+        if card in self.cards_spiders:
+            self.cards_spiders.remove(card)
+        if not self.cards_spiders:
+            self.exporter[0].finish_exporting()
+            self.jsonFile[0].close()
+
+    def process_item(self, item, spider):
+        self.exporter[0].export_item(item)
         return item
