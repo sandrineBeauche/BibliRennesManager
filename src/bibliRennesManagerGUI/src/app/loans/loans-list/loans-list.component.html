@@ -1,0 +1,84 @@
+<table mat-table [dataSource]="dataSource" matSort #empTbSort="matSort" multiTemplateDataRows class="mat-elevation-z8">
+  <ng-container matColumnDef="cover">
+    <th mat-header-cell *matHeaderCellDef> Couverture </th>
+    <td mat-cell *matCellDef="let element">
+      <img src="{{element.book.cover}}"/>
+    </td>
+  </ng-container>
+  
+  <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef> Titre </th>
+      <td mat-cell *matCellDef="let element"> {{element.book.title}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="library">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Trier par bibliothèque"> Bibliothèque </th>
+    <td mat-cell *matCellDef="let element"> 
+      <img src="{{element.library | library }}" width="50">
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="card">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Trier par carte"> Carte </th>
+    <td mat-cell *matCellDef="let element"> 
+      <img ngxGravatar [email]="'{{element.cardName}}'" src="assets/{{element.cardName |  lowercase }}_avatar.png">
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="deadline">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Trier par échéance"> Echéance </th>
+    <td mat-cell *matCellDef="let element"> {{element.deadline | date:"dd/MM/yy"}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="renewed">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Trier par renouvellement"> Renouvelé </th>
+    <td mat-cell *matCellDef="let element">
+      <div *ngIf="element.renewed">
+        <mat-icon>check_circle</mat-icon>
+      </div>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="reserved">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Trier par reservation"> Réservé </th>
+    <td mat-cell *matCellDef="let element">
+      <div *ngIf="element.reservation">
+        <mat-icon>check_circle</mat-icon>
+      </div>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="status">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Trier par statut"> Statut </th>
+    <td mat-cell *matCellDef="let element">
+      <img src="{{element.itemStatus | status }}">
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="expand">
+    <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
+    <td mat-cell *matCellDef="let element">
+      <button mat-icon-button aria-label="expand row" (click)="toggleLoanDetail(element, $event)">
+        <mat-icon *ngIf="expandedElement !== element">keyboard_arrow_down</mat-icon>
+        <mat-icon *ngIf="expandedElement === element">keyboard_arrow_up</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="expandedDetail">
+    <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
+      <div class="example-element-detail"
+           [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+           <app-loan-details [loan]="element"></app-loan-details>
+      </div>
+    </td>
+  </ng-container>
+
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let element; columns: displayedColumns;" 
+      class="example-element-row"
+      [class.example-expanded-row]="expandedElement === element"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
+</table>
+

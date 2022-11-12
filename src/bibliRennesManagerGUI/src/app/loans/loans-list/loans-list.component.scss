@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+  
+tr.example-detail-row {
+  height: 0;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+  margin-left: 40px;
+  height: 0px;
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}

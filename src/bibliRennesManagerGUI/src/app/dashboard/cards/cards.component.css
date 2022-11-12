@@ -1,0 +1,10 @@
+.mat-card{
+    background: rgb(249, 171, 0, 0.2);
+    width: 600px;
+}
+
+.gaugeCaption{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}

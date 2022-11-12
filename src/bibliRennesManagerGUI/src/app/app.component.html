@@ -1,0 +1,11 @@
+<mat-toolbar>
+  <span>Bibli Rennes Manager GUI</span>
+</mat-toolbar>
+<mat-tab-group>
+  <mat-tab label="Tableau de bord">
+    <app-dashboard [cards]="cards"></app-dashboard>
+  </mat-tab>
+  <mat-tab label="Emprunts">
+    <app-loans-list [items]="items"></app-loans-list>
+  </mat-tab>
+</mat-tab-group>

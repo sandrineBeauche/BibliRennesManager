@@ -1,0 +1,39 @@
+<div class="loan-author" *ngIf="loan.book.authors">
+  <b>Auteurs:</b> {{loan.book.authors}} 
+</div>
+
+<div class="loan-description" *ngIf="loan.book.description">
+  <b>Description:</b> {{loan.book.description}} 
+</div>
+
+<div class="loan-publication" *ngIf="loan.book.publication">
+  <b>Publication:</b> {{loan.book.publication}} 
+</div>
+
+<div class="loan-resume" *ngIf="loan.book.resume">
+  <b>Résumé:</b> {{loan.book.resume}} 
+</div>
+
+<div class="loan-notes" *ngIf="loan.book.notes">
+  <b>Notes:</b> {{loan.book.notes}} 
+</div>
+
+<div class="loan-url" *ngIf="loan.book.url">
+  <b>Url:</b><a href="{{loan.book.url}}" target="_blank"> {{loan.book.url}} </a> 
+</div>
+
+<div class="loan-barcode" *ngIf="loan.barcode">
+  <b>Code barre:</b> {{loan.barcode}} 
+</div>
+
+<div class="loan-cote" *ngIf="loan.cote">
+  <b>Cote:</b> {{loan.cote}} 
+</div>
+
+<div class="loan-library" *ngIf="loan.library">
+  <b>Bibliothèque:</b> {{loan.library}} 
+</div>
+
+<div class="loan-card">
+  <b>Carte:</b> {{loan.card?.data?.name}} ({{loan.card?.data?.cardId}})
+</div>

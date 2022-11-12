@@ -8,8 +8,9 @@ import logging
 
 ITEMS_FILE_PATH = "bibliRennesManager/services/bibliRennesScraper/items.json"
 
+
 def launch_scraping():
-    with open('cards.json') as json_file:
+    with open('/home/sandrine/programmation/BibliRennesManager/src/cards.json') as json_file:
         cards = json.load(json_file)
         launch(cards)
 
@@ -34,6 +35,7 @@ def process():
     logging.basicConfig(level=logging.INFO)
     if not check_file_items():
         launch_scraping()
+
 
 if __name__ == '__main__':
     process()
