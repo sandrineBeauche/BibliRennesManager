@@ -1,12 +1,13 @@
-from .utils import fake_response_from_file
+from src.bibliRennesManager.services.bibliRennesScraper.test.utils import fake_response_from_file
 from src.bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.spiders.account_spider import BibliRennesAccountSpider
-from scrapy.http import Response, Request
+from scrapy.http import Response
 from hamcrest.core import assert_that
 from hamcrest.library.object.haslength import has_length
-from hamcrest.library.collection.issequence_containing import has_item, has_items
+from hamcrest.library.collection.issequence_containing import has_items
 from hamcrest.library.object.hasproperty import has_properties, has_property
 from hamcrest.core.core.isequal import equal_to
 import pytest
+
 
 @pytest.fixture
 def account_response():

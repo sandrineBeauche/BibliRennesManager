@@ -8,7 +8,7 @@ from scrapy.responsetypes import responsetypes
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
-from bibliRennesManager.services.bibliRennesScraper.bibliRennesScraper.http import SessionRequest
+from .http import SessionRequest
 
 
 class BiblirennesscraperSpiderMiddleware:
@@ -86,10 +86,11 @@ class SessionPlaywrightDownloaderMiddleware:
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
         if isinstance(request, SessionRequest):
-            sessionId = request.sessionId
-            page = await self.create_page(sessionId)
-            request.meta["playwright_page"] = page
-
+            handlers = self.crawlerObject.engine.downloader.handlers
+            pwHandler = handlers._handlers["https"]
+            if request.sessionId not in pwHandler.contexts:
+                page = await pwHandler.login(request)
+                request.meta["playwright_page"] = page
         return None
 
 
@@ -111,25 +112,13 @@ class SessionPlaywrightDownloaderMiddleware:
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
         if exception.name == "TimeoutError" and "waiting for selector" in exception.message:
-            request.meta["playwright_page_coroutines"] = []
+            request.meta["playwright_page_methods"] = []
             return request
         else:
             pass
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
-
-    async def create_page(self, sessionId):
-        if(sessionId in self.contexts):
-            current_context = self.contexts[sessionId]
-        else:
-            handlers = self.crawlerObject.engine.downloader.handlers
-            pwHandler = handlers._handlers["http"]
-            browser = pwHandler.browser
-            current_context = await browser.new_context(**pwHandler.context_args)
-            self.contexts[sessionId] = current_context
-        page = await current_context.new_page() 
-        return page
 
 
 class PlaywrightFrameDownloaderMiddleware:

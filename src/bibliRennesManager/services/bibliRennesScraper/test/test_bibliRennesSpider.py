@@ -1,14 +1,17 @@
 import pytest
 from .utils import fake_response_from_file, selector_from_file
 from hamcrest.core import assert_that
-from hamcrest.library.object.hasproperty import has_properties, has_property
+from hamcrest.library.object.hasproperty import has_properties
 from hamcrest.library.object.haslength import has_length
-from hamcrest.core.core.isnone import none
-from scrapy.selector import Selector
+
+
+from ..bibliRennesScraper.spiders.bibliRennesSpider import BibliRennesSpider, parse_exemplar
+
 
 @pytest.fixture
 def livre1_response():
     return fake_response_from_file("livre1.html")
+
 
 @pytest.fixture
 def livre2_response():
@@ -24,6 +27,7 @@ def spider():
 def exemplar1():
     return selector_from_file("exemplar1.html", "//html/body/table/tr")
 
+
 @pytest.fixture
 def exemplar2():
     return selector_from_file("exemplar2.html", "//html/body/table/tr")
@@ -37,7 +41,6 @@ def test_parse_exemplar1(exemplar1):
         "status": "EN RAYON",
         "condition": "."
     }))
-
 
 
 def test_spider_book1(livre1_response, spider):
@@ -58,7 +61,7 @@ def test_spider_book2(livre2_response, spider):
     assert_that(result, has_properties({
         "title": "Ramdam sur le rift",
         "authors": "Herlé - Widenlocher, Roger",
-        "exemplaires": has_length(6),
+        "exemplaires": has_length(1),
         "notes": '',
         "description": "47p.",
         "publication": "Paris : Dargaud, 1999",

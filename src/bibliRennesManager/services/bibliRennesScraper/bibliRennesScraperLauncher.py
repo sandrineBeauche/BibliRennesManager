@@ -11,10 +11,10 @@ def launch(cards):
     chdir(scraper_dir)
     settings = get_project_settings()
     process = CrawlerProcess(settings)
-    for card in cards:
-        cardId = card["cardId"]
-        password = card["password"]
-        process.crawl("bibliRennesAccount", cardId, password)
+    #for card in cards:
+    #    cardId = card["cardId"]
+    #    password = card["password"]
+    process.crawl("bibliRennesAccount", cards[0]["cardId"], cards[0]["password"])
     chdir(pwd)
     process.start()
 

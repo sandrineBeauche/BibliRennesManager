@@ -5,9 +5,9 @@ plugins {
 
 python {
     minPythonVersion '3.9.5'
-    pip 'Scrapy:2.5.0'
+    pip 'Scrapy:2.7.1'
     pip 'tinydb:4.4.0'
-    pip 'scrapy-playwright:0.0.3'
+    pip 'scrapy-playwright:0.0.23'
     pip 'pyclean:2.0.0'
     pip 'pytest:6.2.4'
     pip 'PyHamcrest:2.0.2'
@@ -96,6 +96,7 @@ task cleanCache {
         }
     }
 }
+
 
 task cleanPython {
     doLast{

@@ -62,8 +62,8 @@ DOWNLOADER_MIDDLEWARES = {
 
 
 DOWNLOAD_HANDLERS = {
-    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "http": "bibliRennesScraper.handlers.BibliRennesmanagerDownloadHandler",
+    "https": "bibliRennesScraper.handlers.BibliRennesmanagerDownloadHandler",
 }
 
 
@@ -71,7 +71,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
 PLAYWRIGHT_BROWSER_TYPE = 'chromium'
 PLAYWRIGHT_LAUNCH_OPTIONS = {
-    "headless": True
+    "headless": False
 }
 
 # Enable or disable extensions
@@ -83,12 +83,12 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    #'scrapy.pipelines.images.ImagesPipeline': 1,
+    'scrapy.pipelines.images.ImagesPipeline': 1,
     'bibliRennesScraper.pipelines.BiblirennesscraperPipeline': 300,
     'bibliRennesScraper.pipelines.BibliRennesJsonPipeline': 400,
 }
 
-#IMAGES_STORE = '~/.srcappy/bibliRennes/images'
+IMAGES_STORE = '~/.srcappy/bibliRennes/images'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

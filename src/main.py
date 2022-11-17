@@ -10,7 +10,8 @@ ITEMS_FILE_PATH = "bibliRennesManager/services/bibliRennesScraper/items.json"
 
 
 def launch_scraping():
-    with open('/home/sandrine/programmation/BibliRennesManager/src/cards.json') as json_file:
+    script_dir = os.path.dirname(__file__)
+    with open(os.path.join(script_dir, 'cards.json')) as json_file:
         cards = json.load(json_file)
         launch(cards)
 

@@ -1,6 +1,7 @@
-from bibliRennesScraper import processors
+from . import processors
 from itemloaders.processors import Identity, TakeFirst, MapCompose, Join, Compose
 from scrapy.loader import ItemLoader
+
 
 class BibliRennesLoader(ItemLoader):
     default_input_processor = MapCompose(str.strip)
@@ -25,7 +26,6 @@ class BookLoader(BibliRennesLoader):
 
     cover_in = Identity()
     cover_out = TakeFirst()
-
 
     def add_details_values(self, label, link, field):
         
